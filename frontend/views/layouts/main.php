@@ -26,22 +26,23 @@ AppAsset::register($this);
 <?php $this->beginBody() ?>
 
 <div class="wrap">
+    <!-- <img src="/images/website.jpeg" > -->
     <?php
-    NavBar::begin([
-        'brandLabel' => 'My Company',
+    /*NavBar::begin([
+        'brandLabel' => 'Physics Classes',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
         ],
-    ]);
+    ]);*/
     $menuItems = [
-        ['label' => 'Home', 'url' => ['/site/index']],
-        ['label' => 'About', 'url' => ['/site/about']],
-        ['label' => 'Contact', 'url' => ['/site/contact']],
+        // ['label' => 'Home', 'url' => ['/site/index']],
+        // ['label' => 'About', 'url' => ['/site/about']],
+        // ['label' => 'Contact', 'url' => ['/site/contact']],
     ];
     if (Yii::$app->user->isGuest) {
-        $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
-        $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
+        // $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
+        // $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
     } else {
         $menuItems[] = '<li>'
             . Html::beginForm(['/site/logout'], 'post')
@@ -52,11 +53,11 @@ AppAsset::register($this);
             . Html::endForm()
             . '</li>';
     }
-    echo Nav::widget([
+    /*echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => $menuItems,
     ]);
-    NavBar::end();
+    NavBar::end();*/
     ?>
 
     <div class="container">
@@ -69,11 +70,11 @@ AppAsset::register($this);
 </div>
 
 <footer class="footer">
-    <div class="container">
+    <!-- <div class="container">
         <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
 
         <p class="pull-right"><?= Yii::powered() ?></p>
-    </div>
+    </div> -->
 </footer>
 
 <?php $this->endBody() ?>

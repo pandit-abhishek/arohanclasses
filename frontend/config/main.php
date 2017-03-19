@@ -41,6 +41,8 @@ return [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                '/' => 'site/index',
+                '<alias:login|signup|contact|about>' => 'site/<alias>',
             ],
         ],
         
