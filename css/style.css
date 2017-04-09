@@ -118,6 +118,27 @@ a{
 .home-slider .bx-pager{
   display:none;
 }
+.home-slider .bx-wrapper .bx-prev{
+	background:url("../images/prev-arw.png");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	height: 35px;
+    width: 19px;
+}
+.home-slider .bx-wrapper .bx-next{
+	background:url("../images/next-arw.png");
+	background-repeat:no-repeat;
+	height: 35px;
+    width: 19px;
+	background-size:100% 100%;
+}
+.home-slider .bx-wrapper .bx-next:hover{
+	background-position:unset;
+}
+
+
+
+
 .we-provide .course-item {
     border-radius: 4px;
     overflow: hidden;
@@ -271,9 +292,82 @@ a{
     font-size: 16px;
     vertical-align: middle;
 }
-
-
 .consturction img{
     width: 100%;
 }
-
+/***footer-bottom**/
+.bottom-blog{
+	background:#1c2165;
+	width:100%;
+}
+.bottom-blog p{
+	padding: 16px 0 5px 10px;
+	color:#fff;
+}
+/**end-footer-bottom**/
+/***login-form**/
+.login-form{
+	background:url('../images/blog-signup2.jpg');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	width:100%;
+	height:100%;
+}
+.form-blog {
+    display: table;
+    left: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+    width: 300px;
+}
+.form-blog p {
+    color: #fff;
+    font-size: 28px;
+}
+.form-blog input {
+    background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    height: 36px;
+	border-color:#fff;
+}
+.form-blog .form-control::-moz-placeholder{
+	color:#fff !important;
+}
+.form-blog .help-block{
+	font-size:15px;
+}
+.form-group button {
+    background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+    color:#fff !important;
+    font-size: 16px;
+    padding: 4px 20px;
+    width: 100%;
+	border-color:#fff;
+}
+.checkbox #loginform-rememberme{
+	height:10px;
+}
+.checkbox label{
+	color: #fff;	
+}
+.forgot-psd {
+    color: #fff;
+    float: left;
+    margin-left: -13px;
+}
+.forgot-psd  a{
+    color: #f00;
+}
+/**end-login**/
+/****add-media-query**/
+/* @media(max-width:420px){
+	.form-blog{
+		width:250px;
+	}
+} */
+/**end-media-query**/

@@ -1819,3 +1819,1494 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1491728800.504
     'REQUEST_TIME' => 1491728800
 ]
+2017-04-09 08:24:12 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'ActiveForm' not found' in E:\XAMPP\htdocs\physicsclasses\frontend\views\user\login.php:9
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-04-09 08:24:12 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][info][application] $_COOKIE = [
+    'advanced-frontend' => '9ugvpi15r4p0cchtbk2q9gtfa2'
+    '_csrf' => '39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'advanced-frontend=9ugvpi15r4p0cchtbk2q9gtfa2; _csrf=39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter;;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Sony\\VAIO Improvement;C:\\Program Files (x86)\\Sony\\VAIO BIOS Data Transfer Utility\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jdk1.8.0_20\\bin;C:\\Users\\kamal\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/physicsclasses/index.php'
+    'REMOTE_PORT' => '53569'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/physicsclasses/index.php/login'
+    'SCRIPT_NAME' => '/physicsclasses/index.php'
+    'PATH_INFO' => '/login'
+    'PATH_TRANSLATED' => 'E:\\XAMPP\\htdocs\\login'
+    'PHP_SELF' => '/physicsclasses/index.php/login'
+    'REQUEST_TIME_FLOAT' => 1491719052.054
+    'REQUEST_TIME' => 1491719052
+]
+2017-04-09 08:24:17 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'ActiveForm' not found' in E:\XAMPP\htdocs\physicsclasses\frontend\views\user\login.php:9
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-04-09 08:24:17 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][info][application] $_COOKIE = [
+    'advanced-frontend' => '9ugvpi15r4p0cchtbk2q9gtfa2'
+    '_csrf' => '39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'advanced-frontend=9ugvpi15r4p0cchtbk2q9gtfa2; _csrf=39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter;;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Sony\\VAIO Improvement;C:\\Program Files (x86)\\Sony\\VAIO BIOS Data Transfer Utility\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jdk1.8.0_20\\bin;C:\\Users\\kamal\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/physicsclasses/index.php'
+    'REMOTE_PORT' => '53570'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/physicsclasses/index.php/login'
+    'SCRIPT_NAME' => '/physicsclasses/index.php'
+    'PATH_INFO' => '/login'
+    'PATH_TRANSLATED' => 'E:\\XAMPP\\htdocs\\login'
+    'PHP_SELF' => '/physicsclasses/index.php/login'
+    'REQUEST_TIME_FLOAT' => 1491719057.101
+    'REQUEST_TIME' => 1491719057
+]
+2017-04-09 08:47:51 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ')', expecting ']'' in E:\XAMPP\htdocs\physicsclasses\frontend\views\user\login.php:18
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-04-09 08:47:51 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][info][application] $_COOKIE = [
+    'advanced-frontend' => '9ugvpi15r4p0cchtbk2q9gtfa2'
+    '_csrf' => '39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'advanced-frontend=9ugvpi15r4p0cchtbk2q9gtfa2; _csrf=39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter;;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Sony\\VAIO Improvement;C:\\Program Files (x86)\\Sony\\VAIO BIOS Data Transfer Utility\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jdk1.8.0_20\\bin;C:\\Users\\kamal\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/physicsclasses/index.php'
+    'REMOTE_PORT' => '53981'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/physicsclasses/index.php/login'
+    'SCRIPT_NAME' => '/physicsclasses/index.php'
+    'PATH_INFO' => '/login'
+    'PATH_TRANSLATED' => 'E:\\XAMPP\\htdocs\\login'
+    'PHP_SELF' => '/physicsclasses/index.php/login'
+    'REQUEST_TIME_FLOAT' => 1491720471.732
+    'REQUEST_TIME' => 1491720471
+]
+2017-04-09 09:17:37 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "images/earth-orbit.png".' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('images/earth-or...', Array)
+#1 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#2 {main}
+2017-04-09 09:17:37 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][info][application] $_COOKIE = [
+    'advanced-frontend' => '9ugvpi15r4p0cchtbk2q9gtfa2'
+    '_csrf' => '39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/physicsclasses/index.php/'
+    'HTTP_COOKIE' => 'advanced-frontend=9ugvpi15r4p0cchtbk2q9gtfa2; _csrf=39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter;;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Sony\\VAIO Improvement;C:\\Program Files (x86)\\Sony\\VAIO BIOS Data Transfer Utility\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jdk1.8.0_20\\bin;C:\\Users\\kamal\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/physicsclasses/index.php'
+    'REMOTE_PORT' => '54573'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/physicsclasses/index.php/images/earth-orbit.png'
+    'SCRIPT_NAME' => '/physicsclasses/index.php'
+    'PATH_INFO' => '/images/earth-orbit.png'
+    'PATH_TRANSLATED' => 'E:\\XAMPP\\htdocs\\images\\earth-orbit.png'
+    'PHP_SELF' => '/physicsclasses/index.php/images/earth-orbit.png'
+    'REQUEST_TIME_FLOAT' => 1491722257.361
+    'REQUEST_TIME' => 1491722257
+]
+2017-04-09 09:17:37 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "images/class-room-lect.jpg".' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('images/class-ro...', Array)
+#1 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#2 {main}
+2017-04-09 09:17:37 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][info][application] $_COOKIE = [
+    'advanced-frontend' => '9ugvpi15r4p0cchtbk2q9gtfa2'
+    '_csrf' => '39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/physicsclasses/index.php/'
+    'HTTP_COOKIE' => 'advanced-frontend=9ugvpi15r4p0cchtbk2q9gtfa2; _csrf=39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter;;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Sony\\VAIO Improvement;C:\\Program Files (x86)\\Sony\\VAIO BIOS Data Transfer Utility\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jdk1.8.0_20\\bin;C:\\Users\\kamal\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/physicsclasses/index.php'
+    'REMOTE_PORT' => '54572'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/physicsclasses/index.php/images/class-room-lect.jpg'
+    'SCRIPT_NAME' => '/physicsclasses/index.php'
+    'PATH_INFO' => '/images/class-room-lect.jpg'
+    'PATH_TRANSLATED' => 'E:\\XAMPP\\htdocs\\images\\class-room-lect.jpg'
+    'PHP_SELF' => '/physicsclasses/index.php/images/class-room-lect.jpg'
+    'REQUEST_TIME_FLOAT' => 1491722257.36
+    'REQUEST_TIME' => 1491722257
+]
+2017-04-09 09:17:37 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "images/satellite1.jpg".' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('images/satellit...', Array)
+#1 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#2 {main}
+2017-04-09 09:17:37 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][info][application] $_COOKIE = [
+    'advanced-frontend' => '9ugvpi15r4p0cchtbk2q9gtfa2'
+    '_csrf' => '39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/physicsclasses/index.php/'
+    'HTTP_COOKIE' => 'advanced-frontend=9ugvpi15r4p0cchtbk2q9gtfa2; _csrf=39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter;;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Sony\\VAIO Improvement;C:\\Program Files (x86)\\Sony\\VAIO BIOS Data Transfer Utility\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jdk1.8.0_20\\bin;C:\\Users\\kamal\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/physicsclasses/index.php'
+    'REMOTE_PORT' => '54571'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/physicsclasses/index.php/images/satellite1.jpg'
+    'SCRIPT_NAME' => '/physicsclasses/index.php'
+    'PATH_INFO' => '/images/satellite1.jpg'
+    'PATH_TRANSLATED' => 'E:\\XAMPP\\htdocs\\images\\satellite1.jpg'
+    'PHP_SELF' => '/physicsclasses/index.php/images/satellite1.jpg'
+    'REQUEST_TIME_FLOAT' => 1491722257.36
+    'REQUEST_TIME' => 1491722257
+]
+2017-04-09 09:17:37 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "images/study-material.jpg".' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('images/study-ma...', Array)
+#1 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#2 {main}
+2017-04-09 09:17:37 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][info][application] $_COOKIE = [
+    'advanced-frontend' => '9ugvpi15r4p0cchtbk2q9gtfa2'
+    '_csrf' => '39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/physicsclasses/index.php/'
+    'HTTP_COOKIE' => 'advanced-frontend=9ugvpi15r4p0cchtbk2q9gtfa2; _csrf=39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter;;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Sony\\VAIO Improvement;C:\\Program Files (x86)\\Sony\\VAIO BIOS Data Transfer Utility\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jdk1.8.0_20\\bin;C:\\Users\\kamal\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/physicsclasses/index.php'
+    'REMOTE_PORT' => '54574'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/physicsclasses/index.php/images/study-material.jpg'
+    'SCRIPT_NAME' => '/physicsclasses/index.php'
+    'PATH_INFO' => '/images/study-material.jpg'
+    'PATH_TRANSLATED' => 'E:\\XAMPP\\htdocs\\images\\study-material.jpg'
+    'PHP_SELF' => '/physicsclasses/index.php/images/study-material.jpg'
+    'REQUEST_TIME_FLOAT' => 1491722257.377
+    'REQUEST_TIME' => 1491722257
+]
+2017-04-09 09:17:37 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "images/class.jpg".' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('images/class.jp...', Array)
+#1 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#2 {main}
+2017-04-09 09:17:37 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][info][application] $_COOKIE = [
+    'advanced-frontend' => '9ugvpi15r4p0cchtbk2q9gtfa2'
+    '_csrf' => '39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/physicsclasses/index.php/'
+    'HTTP_COOKIE' => 'advanced-frontend=9ugvpi15r4p0cchtbk2q9gtfa2; _csrf=39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter;;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Sony\\VAIO Improvement;C:\\Program Files (x86)\\Sony\\VAIO BIOS Data Transfer Utility\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jdk1.8.0_20\\bin;C:\\Users\\kamal\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/physicsclasses/index.php'
+    'REMOTE_PORT' => '54570'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/physicsclasses/index.php/images/class.jpg'
+    'SCRIPT_NAME' => '/physicsclasses/index.php'
+    'PATH_INFO' => '/images/class.jpg'
+    'PATH_TRANSLATED' => 'E:\\XAMPP\\htdocs\\images\\class.jpg'
+    'PHP_SELF' => '/physicsclasses/index.php/images/class.jpg'
+    'REQUEST_TIME_FLOAT' => 1491722257.361
+    'REQUEST_TIME' => 1491722257
+]
+2017-04-09 09:17:37 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "images/missile.jpg".' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('images/missile....', Array)
+#1 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#2 {main}
+2017-04-09 09:17:37 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][info][application] $_COOKIE = [
+    'advanced-frontend' => '9ugvpi15r4p0cchtbk2q9gtfa2'
+    '_csrf' => '39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/physicsclasses/index.php/'
+    'HTTP_COOKIE' => 'advanced-frontend=9ugvpi15r4p0cchtbk2q9gtfa2; _csrf=39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter;;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Sony\\VAIO Improvement;C:\\Program Files (x86)\\Sony\\VAIO BIOS Data Transfer Utility\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jdk1.8.0_20\\bin;C:\\Users\\kamal\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/physicsclasses/index.php'
+    'REMOTE_PORT' => '54569'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/physicsclasses/index.php/images/missile.jpg'
+    'SCRIPT_NAME' => '/physicsclasses/index.php'
+    'PATH_INFO' => '/images/missile.jpg'
+    'PATH_TRANSLATED' => 'E:\\XAMPP\\htdocs\\images\\missile.jpg'
+    'PHP_SELF' => '/physicsclasses/index.php/images/missile.jpg'
+    'REQUEST_TIME_FLOAT' => 1491722257.359
+    'REQUEST_TIME' => 1491722257
+]
+2017-04-09 09:17:37 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "images/girl-image.jpg".' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('images/girl-ima...', Array)
+#1 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#2 {main}
+2017-04-09 09:17:37 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][info][application] $_COOKIE = [
+    'advanced-frontend' => '9ugvpi15r4p0cchtbk2q9gtfa2'
+    '_csrf' => '39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/physicsclasses/index.php/'
+    'HTTP_COOKIE' => 'advanced-frontend=9ugvpi15r4p0cchtbk2q9gtfa2; _csrf=39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter;;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Sony\\VAIO Improvement;C:\\Program Files (x86)\\Sony\\VAIO BIOS Data Transfer Utility\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jdk1.8.0_20\\bin;C:\\Users\\kamal\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/physicsclasses/index.php'
+    'REMOTE_PORT' => '54576'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/physicsclasses/index.php/images/girl-image.jpg'
+    'SCRIPT_NAME' => '/physicsclasses/index.php'
+    'PATH_INFO' => '/images/girl-image.jpg'
+    'PATH_TRANSLATED' => 'E:\\XAMPP\\htdocs\\images\\girl-image.jpg'
+    'PHP_SELF' => '/physicsclasses/index.php/images/girl-image.jpg'
+    'REQUEST_TIME_FLOAT' => 1491722257.633
+    'REQUEST_TIME' => 1491722257
+]
+2017-04-09 09:17:37 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "images/video-lecture.jpg".' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('images/video-le...', Array)
+#1 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#2 {main}
+2017-04-09 09:17:37 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][info][application] $_COOKIE = [
+    'advanced-frontend' => '9ugvpi15r4p0cchtbk2q9gtfa2'
+    '_csrf' => '39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/physicsclasses/index.php/'
+    'HTTP_COOKIE' => 'advanced-frontend=9ugvpi15r4p0cchtbk2q9gtfa2; _csrf=39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter;;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Sony\\VAIO Improvement;C:\\Program Files (x86)\\Sony\\VAIO BIOS Data Transfer Utility\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jdk1.8.0_20\\bin;C:\\Users\\kamal\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/physicsclasses/index.php'
+    'REMOTE_PORT' => '54572'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/physicsclasses/index.php/images/video-lecture.jpg'
+    'SCRIPT_NAME' => '/physicsclasses/index.php'
+    'PATH_INFO' => '/images/video-lecture.jpg'
+    'PATH_TRANSLATED' => 'E:\\XAMPP\\htdocs\\images\\video-lecture.jpg'
+    'PHP_SELF' => '/physicsclasses/index.php/images/video-lecture.jpg'
+    'REQUEST_TIME_FLOAT' => 1491722257.837
+    'REQUEST_TIME' => 1491722257
+]
+2017-04-09 09:17:37 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "images/more.jpg".' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('images/more.jpg', Array)
+#1 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#2 {main}
+2017-04-09 09:17:37 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][info][application] $_COOKIE = [
+    'advanced-frontend' => '9ugvpi15r4p0cchtbk2q9gtfa2'
+    '_csrf' => '39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/physicsclasses/index.php/'
+    'HTTP_COOKIE' => 'advanced-frontend=9ugvpi15r4p0cchtbk2q9gtfa2; _csrf=39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter;;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Sony\\VAIO Improvement;C:\\Program Files (x86)\\Sony\\VAIO BIOS Data Transfer Utility\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jdk1.8.0_20\\bin;C:\\Users\\kamal\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/physicsclasses/index.php'
+    'REMOTE_PORT' => '54574'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/physicsclasses/index.php/images/more.jpg'
+    'SCRIPT_NAME' => '/physicsclasses/index.php'
+    'PATH_INFO' => '/images/more.jpg'
+    'PATH_TRANSLATED' => 'E:\\XAMPP\\htdocs\\images\\more.jpg'
+    'PHP_SELF' => '/physicsclasses/index.php/images/more.jpg'
+    'REQUEST_TIME_FLOAT' => 1491722257.896
+    'REQUEST_TIME' => 1491722257
+]
+2017-04-09 09:17:37 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "images/class-panorama.jpg".' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('images/class-pa...', Array)
+#1 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#2 {main}
+2017-04-09 09:17:37 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][info][application] $_COOKIE = [
+    'advanced-frontend' => '9ugvpi15r4p0cchtbk2q9gtfa2'
+    '_csrf' => '39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/physicsclasses/index.php/'
+    'HTTP_COOKIE' => 'advanced-frontend=9ugvpi15r4p0cchtbk2q9gtfa2; _csrf=39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter;;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Sony\\VAIO Improvement;C:\\Program Files (x86)\\Sony\\VAIO BIOS Data Transfer Utility\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jdk1.8.0_20\\bin;C:\\Users\\kamal\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/physicsclasses/index.php'
+    'REMOTE_PORT' => '54571'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/physicsclasses/index.php/images/class-panorama.jpg'
+    'SCRIPT_NAME' => '/physicsclasses/index.php'
+    'PATH_INFO' => '/images/class-panorama.jpg'
+    'PATH_TRANSLATED' => 'E:\\XAMPP\\htdocs\\images\\class-panorama.jpg'
+    'PHP_SELF' => '/physicsclasses/index.php/images/class-panorama.jpg'
+    'REQUEST_TIME_FLOAT' => 1491722257.805
+    'REQUEST_TIME' => 1491722257
+]
+2017-04-09 09:17:43 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "images/class-room-lect.jpg".' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('images/class-ro...', Array)
+#1 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#2 {main}
+2017-04-09 09:17:43 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][info][application] $_COOKIE = [
+    'advanced-frontend' => '9ugvpi15r4p0cchtbk2q9gtfa2'
+    '_csrf' => '39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/physicsclasses/index.php/'
+    'HTTP_COOKIE' => 'advanced-frontend=9ugvpi15r4p0cchtbk2q9gtfa2; _csrf=39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter;;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Sony\\VAIO Improvement;C:\\Program Files (x86)\\Sony\\VAIO BIOS Data Transfer Utility\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jdk1.8.0_20\\bin;C:\\Users\\kamal\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/physicsclasses/index.php'
+    'REMOTE_PORT' => '54581'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/physicsclasses/index.php/images/class-room-lect.jpg'
+    'SCRIPT_NAME' => '/physicsclasses/index.php'
+    'PATH_INFO' => '/images/class-room-lect.jpg'
+    'PATH_TRANSLATED' => 'E:\\XAMPP\\htdocs\\images\\class-room-lect.jpg'
+    'PHP_SELF' => '/physicsclasses/index.php/images/class-room-lect.jpg'
+    'REQUEST_TIME_FLOAT' => 1491722263.584
+    'REQUEST_TIME' => 1491722263
+]
+2017-04-09 09:17:43 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "images/satellite1.jpg".' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('images/satellit...', Array)
+#1 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#2 {main}
+2017-04-09 09:17:43 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][info][application] $_COOKIE = [
+    'advanced-frontend' => '9ugvpi15r4p0cchtbk2q9gtfa2'
+    '_csrf' => '39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/physicsclasses/index.php/'
+    'HTTP_COOKIE' => 'advanced-frontend=9ugvpi15r4p0cchtbk2q9gtfa2; _csrf=39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter;;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Sony\\VAIO Improvement;C:\\Program Files (x86)\\Sony\\VAIO BIOS Data Transfer Utility\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jdk1.8.0_20\\bin;C:\\Users\\kamal\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/physicsclasses/index.php'
+    'REMOTE_PORT' => '54580'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/physicsclasses/index.php/images/satellite1.jpg'
+    'SCRIPT_NAME' => '/physicsclasses/index.php'
+    'PATH_INFO' => '/images/satellite1.jpg'
+    'PATH_TRANSLATED' => 'E:\\XAMPP\\htdocs\\images\\satellite1.jpg'
+    'PHP_SELF' => '/physicsclasses/index.php/images/satellite1.jpg'
+    'REQUEST_TIME_FLOAT' => 1491722263.583
+    'REQUEST_TIME' => 1491722263
+]
+2017-04-09 09:17:43 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "images/class.jpg".' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('images/class.jp...', Array)
+#1 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#2 {main}
+2017-04-09 09:17:43 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][info][application] $_COOKIE = [
+    'advanced-frontend' => '9ugvpi15r4p0cchtbk2q9gtfa2'
+    '_csrf' => '39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/physicsclasses/index.php/'
+    'HTTP_COOKIE' => 'advanced-frontend=9ugvpi15r4p0cchtbk2q9gtfa2; _csrf=39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter;;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Sony\\VAIO Improvement;C:\\Program Files (x86)\\Sony\\VAIO BIOS Data Transfer Utility\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jdk1.8.0_20\\bin;C:\\Users\\kamal\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/physicsclasses/index.php'
+    'REMOTE_PORT' => '54583'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/physicsclasses/index.php/images/class.jpg'
+    'SCRIPT_NAME' => '/physicsclasses/index.php'
+    'PATH_INFO' => '/images/class.jpg'
+    'PATH_TRANSLATED' => 'E:\\XAMPP\\htdocs\\images\\class.jpg'
+    'PHP_SELF' => '/physicsclasses/index.php/images/class.jpg'
+    'REQUEST_TIME_FLOAT' => 1491722263.585
+    'REQUEST_TIME' => 1491722263
+]
+2017-04-09 09:17:43 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "images/earth-orbit.png".' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('images/earth-or...', Array)
+#1 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#2 {main}
+2017-04-09 09:17:43 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][info][application] $_COOKIE = [
+    'advanced-frontend' => '9ugvpi15r4p0cchtbk2q9gtfa2'
+    '_csrf' => '39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/physicsclasses/index.php/'
+    'HTTP_COOKIE' => 'advanced-frontend=9ugvpi15r4p0cchtbk2q9gtfa2; _csrf=39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter;;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Sony\\VAIO Improvement;C:\\Program Files (x86)\\Sony\\VAIO BIOS Data Transfer Utility\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jdk1.8.0_20\\bin;C:\\Users\\kamal\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/physicsclasses/index.php'
+    'REMOTE_PORT' => '54579'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/physicsclasses/index.php/images/earth-orbit.png'
+    'SCRIPT_NAME' => '/physicsclasses/index.php'
+    'PATH_INFO' => '/images/earth-orbit.png'
+    'PATH_TRANSLATED' => 'E:\\XAMPP\\htdocs\\images\\earth-orbit.png'
+    'PHP_SELF' => '/physicsclasses/index.php/images/earth-orbit.png'
+    'REQUEST_TIME_FLOAT' => 1491722263.584
+    'REQUEST_TIME' => 1491722263
+]
+2017-04-09 09:17:43 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "images/study-material.jpg".' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('images/study-ma...', Array)
+#1 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#2 {main}
+2017-04-09 09:17:43 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][info][application] $_COOKIE = [
+    'advanced-frontend' => '9ugvpi15r4p0cchtbk2q9gtfa2'
+    '_csrf' => '39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/physicsclasses/index.php/'
+    'HTTP_COOKIE' => 'advanced-frontend=9ugvpi15r4p0cchtbk2q9gtfa2; _csrf=39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter;;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Sony\\VAIO Improvement;C:\\Program Files (x86)\\Sony\\VAIO BIOS Data Transfer Utility\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jdk1.8.0_20\\bin;C:\\Users\\kamal\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/physicsclasses/index.php'
+    'REMOTE_PORT' => '54582'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/physicsclasses/index.php/images/study-material.jpg'
+    'SCRIPT_NAME' => '/physicsclasses/index.php'
+    'PATH_INFO' => '/images/study-material.jpg'
+    'PATH_TRANSLATED' => 'E:\\XAMPP\\htdocs\\images\\study-material.jpg'
+    'PHP_SELF' => '/physicsclasses/index.php/images/study-material.jpg'
+    'REQUEST_TIME_FLOAT' => 1491722263.687
+    'REQUEST_TIME' => 1491722263
+]
+2017-04-09 09:17:43 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "images/missile.jpg".' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('images/missile....', Array)
+#1 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#2 {main}
+2017-04-09 09:17:43 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][info][application] $_COOKIE = [
+    'advanced-frontend' => '9ugvpi15r4p0cchtbk2q9gtfa2'
+    '_csrf' => '39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/physicsclasses/index.php/'
+    'HTTP_COOKIE' => 'advanced-frontend=9ugvpi15r4p0cchtbk2q9gtfa2; _csrf=39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter;;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Sony\\VAIO Improvement;C:\\Program Files (x86)\\Sony\\VAIO BIOS Data Transfer Utility\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jdk1.8.0_20\\bin;C:\\Users\\kamal\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/physicsclasses/index.php'
+    'REMOTE_PORT' => '54578'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/physicsclasses/index.php/images/missile.jpg'
+    'SCRIPT_NAME' => '/physicsclasses/index.php'
+    'PATH_INFO' => '/images/missile.jpg'
+    'PATH_TRANSLATED' => 'E:\\XAMPP\\htdocs\\images\\missile.jpg'
+    'PHP_SELF' => '/physicsclasses/index.php/images/missile.jpg'
+    'REQUEST_TIME_FLOAT' => 1491722263.583
+    'REQUEST_TIME' => 1491722263
+]
+2017-04-09 09:17:44 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "images/girl-image.jpg".' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('images/girl-ima...', Array)
+#1 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#2 {main}
+2017-04-09 09:17:43 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][info][application] $_COOKIE = [
+    'advanced-frontend' => '9ugvpi15r4p0cchtbk2q9gtfa2'
+    '_csrf' => '39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/physicsclasses/index.php/'
+    'HTTP_COOKIE' => 'advanced-frontend=9ugvpi15r4p0cchtbk2q9gtfa2; _csrf=39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter;;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Sony\\VAIO Improvement;C:\\Program Files (x86)\\Sony\\VAIO BIOS Data Transfer Utility\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jdk1.8.0_20\\bin;C:\\Users\\kamal\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/physicsclasses/index.php'
+    'REMOTE_PORT' => '54585'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/physicsclasses/index.php/images/girl-image.jpg'
+    'SCRIPT_NAME' => '/physicsclasses/index.php'
+    'PATH_INFO' => '/images/girl-image.jpg'
+    'PATH_TRANSLATED' => 'E:\\XAMPP\\htdocs\\images\\girl-image.jpg'
+    'PHP_SELF' => '/physicsclasses/index.php/images/girl-image.jpg'
+    'REQUEST_TIME_FLOAT' => 1491722263.875
+    'REQUEST_TIME' => 1491722263
+]
+2017-04-09 09:17:44 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "images/class-panorama.jpg".' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('images/class-pa...', Array)
+#1 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#2 {main}
+2017-04-09 09:17:43 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][info][application] $_COOKIE = [
+    'advanced-frontend' => '9ugvpi15r4p0cchtbk2q9gtfa2'
+    '_csrf' => '39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/physicsclasses/index.php/'
+    'HTTP_COOKIE' => 'advanced-frontend=9ugvpi15r4p0cchtbk2q9gtfa2; _csrf=39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter;;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Sony\\VAIO Improvement;C:\\Program Files (x86)\\Sony\\VAIO BIOS Data Transfer Utility\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jdk1.8.0_20\\bin;C:\\Users\\kamal\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/physicsclasses/index.php'
+    'REMOTE_PORT' => '54580'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/physicsclasses/index.php/images/class-panorama.jpg'
+    'SCRIPT_NAME' => '/physicsclasses/index.php'
+    'PATH_INFO' => '/images/class-panorama.jpg'
+    'PATH_TRANSLATED' => 'E:\\XAMPP\\htdocs\\images\\class-panorama.jpg'
+    'PHP_SELF' => '/physicsclasses/index.php/images/class-panorama.jpg'
+    'REQUEST_TIME_FLOAT' => 1491722263.981
+    'REQUEST_TIME' => 1491722263
+]
+2017-04-09 09:17:44 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "images/video-lecture.jpg".' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('images/video-le...', Array)
+#1 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#2 {main}
+2017-04-09 09:17:44 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][info][application] $_COOKIE = [
+    'advanced-frontend' => '9ugvpi15r4p0cchtbk2q9gtfa2'
+    '_csrf' => '39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/physicsclasses/index.php/'
+    'HTTP_COOKIE' => 'advanced-frontend=9ugvpi15r4p0cchtbk2q9gtfa2; _csrf=39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter;;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Sony\\VAIO Improvement;C:\\Program Files (x86)\\Sony\\VAIO BIOS Data Transfer Utility\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jdk1.8.0_20\\bin;C:\\Users\\kamal\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/physicsclasses/index.php'
+    'REMOTE_PORT' => '54583'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/physicsclasses/index.php/images/video-lecture.jpg'
+    'SCRIPT_NAME' => '/physicsclasses/index.php'
+    'PATH_INFO' => '/images/video-lecture.jpg'
+    'PATH_TRANSLATED' => 'E:\\XAMPP\\htdocs\\images\\video-lecture.jpg'
+    'PHP_SELF' => '/physicsclasses/index.php/images/video-lecture.jpg'
+    'REQUEST_TIME_FLOAT' => 1491722264.016
+    'REQUEST_TIME' => 1491722264
+]
+2017-04-09 09:17:44 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "images/more.jpg".' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('images/more.jpg', Array)
+#1 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\XAMPP\htdocs\physicsclasses\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\physicsclasses\index.php(19): yii\base\Application->run()
+#2 {main}
+2017-04-09 09:17:44 [::1][-][9ugvpi15r4p0cchtbk2q9gtfa2][info][application] $_COOKIE = [
+    'advanced-frontend' => '9ugvpi15r4p0cchtbk2q9gtfa2'
+    '_csrf' => '39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/physicsclasses/index.php/'
+    'HTTP_COOKIE' => 'advanced-frontend=9ugvpi15r4p0cchtbk2q9gtfa2; _csrf=39c802a0c5fe9ea4282f9e6595e7273cada06935307ab779fd07cfb65a853d0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ua1aFYHpAztnsUdwgjl1qg8V_MhN4s8C%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter;;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Sony\\VAIO Improvement;C:\\Program Files (x86)\\Sony\\VAIO BIOS Data Transfer Utility\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Java\\jdk1.8.0_20\\bin;C:\\Users\\kamal\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/physicsclasses/index.php'
+    'REMOTE_PORT' => '54579'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/physicsclasses/index.php/images/more.jpg'
+    'SCRIPT_NAME' => '/physicsclasses/index.php'
+    'PATH_INFO' => '/images/more.jpg'
+    'PATH_TRANSLATED' => 'E:\\XAMPP\\htdocs\\images\\more.jpg'
+    'PHP_SELF' => '/physicsclasses/index.php/images/more.jpg'
+    'REQUEST_TIME_FLOAT' => 1491722264.084
+    'REQUEST_TIME' => 1491722264
+]

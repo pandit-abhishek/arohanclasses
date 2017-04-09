@@ -19,10 +19,10 @@ AppAsset::register($this);
         <title>PhysicsClasses | <?= Html::encode($this->title) ?></title>
         <?php $this->head() ?>
     </head>
-    <body>
+    <body>	
         <?php $this->beginBody() ?>
-
             <div class="wrap nav-header">
+			<header>
                 <?php
                     NavBar::begin([
                         'brandLabel' => 'Physics Classes',
@@ -58,6 +58,7 @@ AppAsset::register($this);
                         ]);
                     NavBar::end();
                 ?>
+			</header>	
 
                <!--  <div class="container"> -->
                     <?= Breadcrumbs::widget([
@@ -86,6 +87,16 @@ AppAsset::register($this);
                         </div>  
                     </div>
                 </div>
+				<div class="bottom-blog">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<p class="pull-left">© Physics Classes <?php echo date("Y")?></p>
+								<p class="pull-right"><?= Yii::powered()?></p>
+							</div>
+						</div>
+					</div>
+				</div>
                 <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
                 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
             </footer>

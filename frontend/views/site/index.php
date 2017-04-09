@@ -56,7 +56,7 @@ use yii\helpers\Url;
 			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 				<div class="course-item">
 					<div class="course-hover">
-						<img alt="" data-at2x="pic/370x280-img-2@2x.jpg" src="images/girl-image.png">
+						<img alt="" data-at2x="pic/370x280-img-2@2x.jpg" src="images/girl-image.jpg">
 						<div class="hover-bg bg-color-2"></div>
 						<a href="/facility?id=problemSolvingClass">View More</a>
 					</div>
@@ -94,7 +94,7 @@ use yii\helpers\Url;
 			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 				<div class="course-item">
 					<div class="course-hover">
-						<img alt="" data-at2x="pic/370x280-img-2@2x.jpg" src="images/more.png">
+						<img alt="" data-at2x="pic/370x280-img-2@2x.jpg" src="images/more.jpg">
 						<div class="hover-bg bg-color-2"></div>
 						<a href="/facility?id=more">View More</a>
 					</div>
@@ -106,23 +106,3 @@ use yii\helpers\Url;
 		</div>	
 	</div>
 </section>
-<footer>
-    <!--<div class="footer-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                    <h3>Institution Goal</h3>
-                    <p>Goal Imagery® Institute is a truly holistic learning environment that taps the subconscious power of emotions and imagination to help you achieve your goals faster and easier.</p>
-                </div>  
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                    <h3>Institute Goal</h3>
-                    <p>Goal Imagery® Institute is a truly holistic learning environment that taps the subconscious power of emotions and imagination to help you achieve your goals faster and easier.</p>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                    <h3>Director Message</h3>
-                    <p>Goal Imagery® Institute is a truly holistic learning environment that taps the subconscious power of emotions and imagination to help you achieve your goals faster and easier.</p>
-                </div>
-            </div>  
-        </div>
-    </div>-->
-</footer>

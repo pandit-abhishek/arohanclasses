@@ -6,4 +6,11 @@ $(document).ready(function(){
 	var h=$(window).height();
 	$('.home-slider .bx-viewport').css('height',h);
 	$('.home-slider .bx-viewport ul li img').css('height',h);
+	$('.login-form').css('height',h);
+	$(window).resize(function(){
+		var h=$(window).height();
+		$('.home-slider .bx-viewport').css('height',h);
+		$('.home-slider .bx-viewport ul li img').css('height',h);
+		$('.login-form').css('height',h);
+	});
 });
