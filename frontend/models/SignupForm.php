@@ -9,10 +9,25 @@ use common\models\User;
  */
 class SignupForm extends Model
 {
+    public $firstname;
+    public $lastname;
     public $username;
     public $email;
     public $password;
+    public $contactNo;
+    public $gender;
 
+    
+    /*public function attributes(){
+        return[
+            'firstname',
+            'lastname',
+            'username',
+            'email',
+            'password',
+            'contact'
+        ];
+    }*/
 
     /**
      * @inheritdoc
@@ -33,6 +48,7 @@ class SignupForm extends Model
 
             ['password', 'required'],
             ['password', 'string', 'min' => 6],
+            [['firstname','lastname','username','email','password','contactNo'],'safe']
         ];
     }
 
@@ -50,9 +66,11 @@ class SignupForm extends Model
         $user = new User();
         $user->username = $this->username;
         $user->email = $this->email;
-        $user->setPassword($this->password);
-        $user->generateAuthKey();
-        
+        $user->password = $this->password;
+        $user->status = 1;
+        $user->created_at = Date('Y-m-d H:i:s');
+        $user->updated_at = Date('Y-m-d H:i:s');
+        // print_r($user->attributes);die;
         return $user->save() ? $user : null;
     }
 }

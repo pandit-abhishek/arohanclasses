@@ -13,7 +13,7 @@ return [
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
         'request' => [
-            'csrfParam' => '_csrf-frontend',
+            // 'csrfParam' => '_csrf-frontend',
         ],
         'user' => [
             'identityClass' => 'common\models\User',
@@ -42,7 +42,9 @@ return [
             'showScriptName' => false,
             'rules' => [
                 '/' => 'site/index',
-                '<alias:login|signup|contact|about>' => 'site/<alias>',
+                '<alias:contact|about|courses|batches|construction|more>' => 'site/<alias>',
+                '<alias:signup|login>' => 'user/<alias>',
+                'GET facility'=>'site/we-provides',
             ],
         ],
         

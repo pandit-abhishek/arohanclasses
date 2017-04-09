@@ -1,0 +1,265 @@
+@font-face {
+    font-family: 'gunny_rewrittenregular';
+    src: url('../fonts/gnyrwn971-webfont.eot');
+    src: url('../fonts/gnyrwn971-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gnyrwn971-webfont.woff2') format('woff2'),
+         url('../fonts/gnyrwn971-webfont.woff') format('woff'),
+         url('../fonts/gnyrwn971-webfont.ttf') format('truetype'),
+         url('../fonts/gnyrwn971-webfont.svg#gunny_rewrittenregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SanFranciscoDisplay-Regular';
+    src: url('../fonts/SanFranciscoDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SanFranciscoDisplay-Regular.woff') format('woff'),
+         url('../fonts/SanFranciscoDisplay-Regular.ttf') format('truetype'),
+         url('../fonts/SanFranciscoDisplay-Regular.svg#SanFranciscoDisplay-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SanFranciscoDisplay-Bold';
+    src: url('../fonts/SanFranciscoDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SanFranciscoDisplay-Bold.woff2') format('woff'),
+         url('../fonts/SanFranciscoDisplay-Bold.ttf') format('truetype'),
+         url('../fonts/SanFranciscoDisplay-Bold.svg#SanFranciscoDisplay-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'SanFranciscoDisplay-Ultralight';
+  src: url('../fonts/SanFranciscoDisplay-Ultralight.eot') format('embedded-opentype'),
+   url('../fonts/SanFranciscoDisplay-Ultralight.woff') format('woff'),
+         url('../fonts/SanFranciscoDisplay-Ultralight.ttf') format('truetype'),
+         url('../fonts/SanFranciscoDisplay-Ultralight.svg#SanFranciscoDisplay-Ultralight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SanFranciscoDisplay-Semibold';
+  src: url('../fonts/SanFranciscoDisplay-Semibold.eot') format('embedded-opentype'),
+   url('../fonts/SanFranciscoDisplay-Semibold.woff') format('woff'),
+         url('../fonts/SanFranciscoDisplay-Semibold.ttf') format('truetype'),
+         url('../fonts/SanFranciscoDisplay-Semibold.svg#SanFranciscoDisplay-Semibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SanFranciscoDisplay-Light';
+  src: url('../fonts/SanFranciscoDisplay-Light.eot') format('embedded-opentype'),
+   url('../fonts/SanFranciscoDisplay-Light.woff') format('woff'),
+         url('../fonts/SanFranciscoDisplay-Light.ttf') format('truetype'),
+         url('../fonts/SanFranciscoDisplay-Light.svg#SanFranciscoDisplay-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SanFranciscoDisplay-Medium';
+  src: url('../fonts/SanFranciscoDisplay-Medium.eot') format('embedded-opentype'),
+   url('../fonts/SanFranciscoDisplay-Medium.woff') format('woff'),
+         url('../fonts/SanFranciscoDisplay-Medium.ttf') format('truetype'),
+         url('../fonts/SanFranciscoDisplay-Medium.svg#SanFranciscoDisplay-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SanFranciscoDisplay-Black';
+  src: url('../fonts/SanFranciscoDisplay-Black.eot') format('embedded-opentype'),
+   url('../fonts/SanFranciscoDisplay-Black.woff') format('woff'),
+         url('../fonts/SanFranciscoDisplay-Black.ttf') format('truetype'),
+         url('../fonts/SanFranciscoDisplay-Black.svg#SanFranciscoDisplay-Black') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SanFranciscoDisplay-Heavy';
+  src: url('../fonts/SanFranciscoDisplay-Heavy.eot') format('embedded-opentype'),
+   url('../fonts/SanFranciscoDisplay-Heavy.woff') format('woff'),
+         url('../fonts/SanFranciscoDisplay-Heavy.ttf') format('truetype'),
+         url('../fonts/SanFranciscoDisplay-Heavy.svg#SanFranciscoDisplay-Heavy') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+a{
+	text-decoration: none !important;
+	outline: none !important;
+}
+/*****start-here***/
+.gapper{
+	height:28px;
+}
+.home-slider{
+	padding: 0;
+}
+.home-slider .bx-wrapper .bx-viewport {
+    border: 0 solid #ffffff;
+    box-shadow: none;
+    left: 0;
+    transform: translateZ(0px);
+}
+.home-slider .bx-wrapper img {
+    width: 100%;
+    margin-top: 50px;
+}
+.we-provide .course-item {
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.we-provide .course-item .course-hover {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.we-provide .course-item img{
+	height: 100% !important;
+    max-height: 200px !important;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    z-index: 1;
+}
+.course-hover .hover-bg {
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    z-index: 1;
+}
+.course-item .course-hover:hover .hover-bg {
+    opacity: 0.6;
+}
+.course-hover .hover-bg {
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    z-index: 1;
+}
+.bg-color-2 {
+    background-color: #03462e;
+}
+.course-hover a {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 15px;
+    left: 50%;
+    line-height: 20px;
+    opacity: 0;
+    overflow: hidden;
+    padding: 8px 30px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.5);
+    transition: all 0.3s ease 0s;
+    white-space: nowrap;
+    z-index: 3;
+}
+.widget-popular .course-name, .course-item .course-name {
+    background-color: rgb(51, 51, 51);
+    display: block;
+    padding: 10px;
+}
+.widget-popular img, .course-item img {
+    height: 100% !important;
+    max-height: 200px !important;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    z-index: 1;
+}
+.course-item .course-hover:hover img {
+    transform: scale(1.1);
+    transition: all 4s ease 0s;
+}
+.course-hover:hover > a {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+}
+.widget-popular .course-name .price, .course-item .course-name .price {
+    color: rgb(255, 255, 255);
+    display: table;
+    float: none;
+    margin: 0 auto;
+}
+.price {
+    display: inline-block;
+    text-align: center;
+}
+.price {
+    font-size: 18px;
+}
+.we-provide h3 {
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+}
+.left-border {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    height: 8px;
+    margin-top: 30px;
+}
+.right-border {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    height: 8px;
+    margin-top: 30px;
+}
+.footer-section{
+	background:rgba(0,0,0,0.4);
+	margin-top: 30px;
+    padding: 23px 0;
+}
+.footer-section h3 {
+    color: #fff;
+    position: relative;
+}
+
+.footer-section h3:before {
+    background: #000 none repeat scroll 0 0;
+    bottom: -2px;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+}
+.footer-section p {
+	text-align:justify;
+}
+.advertisement {
+    background: rgba(0, 0, 0, 0.9) none repeat scroll 0 0;
+    width: 100%;
+}
+.advertisement > .container{
+	height: 50px;
+    display: table;
+}
+.advertisement p {
+    color: #fff;
+    display: table-cell;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+
+.consturction img{
+    width: 100%;
+}
+

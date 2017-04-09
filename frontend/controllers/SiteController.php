@@ -211,4 +211,48 @@ class SiteController extends Controller
             'model' => $model,
         ]);
     }
+
+    /**
+     * { function_description }
+     */
+    public function actionCourses(){
+        return $this->render('courses');
+    }
+
+    public function actionBatches(){
+        return $this->render('batches');
+    }
+
+    public function actionConstruction(){
+        return $this->render('underConstruction');
+    }
+
+    public function actionMore(){
+        return $this->render('more');
+    }
+
+
+    public function actionWeProvides(){
+        return $this->render('underConstruction');
+        
+        /*$id = Yii::$app->request->get('id');
+        if($id == 'classroom'){
+            return $this->render('courses');
+        }
+        else if($id == 'studyMaterial'){
+            return $this->render('studyMaterial');
+        }
+        else if($id == 'problemSolvingClass'){
+            return $this->render('problemSolvingClass');
+        }
+        else if($id == 'testSeries'){
+            return $this->render('testSeries');
+        }
+        else if($id == 'videoLecture'){
+            return $this->render('videoLecture');
+        }
+        else if($id == 'more'){
+            return $this->render('more');
+        }*/
+    }
 }
