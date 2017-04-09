@@ -22,7 +22,7 @@ AppAsset::register($this);
     <body>
         <?php $this->beginBody() ?>
 
-            <div class="wrap">
+            <div class="wrap nav-header">
                 <?php
                     NavBar::begin([
                         'brandLabel' => 'Physics Classes',
@@ -68,10 +68,23 @@ AppAsset::register($this);
                <!--  </div> -->
             </div>
             <footer class="footer">
-                <div class="container">
-                    <p class="pull-left">&copy; Physics Classes <?= date('Y') ?></p>
-
-                    <p class="pull-right"><?= Yii::powered() ?></p>
+                <div class="footer-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                <h3>Institution Goal</h3>
+                                <p>Goal Imagery® Institute is a truly holistic learning environment that taps the subconscious power of emotions and imagination to help you achieve your goals faster and easier.</p>
+                            </div>  
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                <h3>Institute Goal</h3>
+                                <p>Goal Imagery® Institute is a truly holistic learning environment that taps the subconscious power of emotions and imagination to help you achieve your goals faster and easier.</p>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                <h3>Director Message</h3>
+                                <p>Goal Imagery® Institute is a truly holistic learning environment that taps the subconscious power of emotions and imagination to help you achieve your goals faster and easier.</p>
+                            </div>
+                        </div>  
+                    </div>
                 </div>
                 <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
                 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>

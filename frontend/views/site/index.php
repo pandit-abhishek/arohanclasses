@@ -6,7 +6,7 @@ use yii\helpers\Url;
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 home-slider">
-				<ul class="myslider1">
+				<ul class="main-slider">
 					<li><img src="images/missile.jpg" class="img-responsive" alt="" /></li>
 					<li><img src="images/satellite1.jpg" class="img-responsive" alt="" /></li>
 					<li><img src="images/class-room-lect.jpg" class="img-responsive" alt="" /></li>
@@ -107,7 +107,7 @@ use yii\helpers\Url;
 	</div>
 </section>
 <footer>
-    <div class="footer-section">
+    <!--<div class="footer-section">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
@@ -124,12 +124,5 @@ use yii\helpers\Url;
                 </div>
             </div>  
         </div>
-    </div>
-   <!--  <div class="advertisement">
-        <div class="container">
-            <p class="pull-left">Physics Classes</p>
-            <p class="pull-right">By Brajesh Kumar</p>
-            
-        </div>  
-    </div> -->
+    </div>-->
 </footer>

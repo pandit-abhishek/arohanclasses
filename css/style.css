@@ -87,6 +87,16 @@ a{
 	text-decoration: none !important;
 	outline: none !important;
 }
+/****header***/
+.nav-header .navbar-inverse{
+    background-color: #1c2165;
+    border-color: #1c2165;
+}
+.nav-header .navbar-inverse .navbar-nav > .active > a,.nav-header  .navbar-inverse .navbar-nav > .active > a:hover,.nav-header  .navbar-inverse .navbar-nav > .active > a:focus{
+  background-color: #fff;
+  color: #1c2165;
+}
+/**end-header**/
 /*****start-here***/
 .gapper{
 	height:28px;
@@ -102,7 +112,11 @@ a{
 }
 .home-slider .bx-wrapper img {
     width: 100%;
+    margin: 0 auto;
     margin-top: 50px;
+}
+.home-slider .bx-pager{
+  display:none;
 }
 .we-provide .course-item {
     border-radius: 4px;
