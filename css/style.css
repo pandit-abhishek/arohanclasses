@@ -312,6 +312,13 @@ a{
 	background-size:100% 100%;
 	width:100%;
 	height:100%;
+	position:relative;
+}
+.login-form .form-group {
+    max-width: 100%;
+    width: 100%;
+	margin-left:0;
+	margin-bottom:5px;
 }
 .form-blog {
     display: table;
@@ -322,7 +329,7 @@ a{
     transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%);
-    width: 300px;
+    width: 330px;
 }
 .form-blog p {
     color: #fff;
@@ -331,9 +338,34 @@ a{
 .form-blog input {
     background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
     color: rgba(255, 255, 255, 1);
-    font-size: 16px;
-    height: 36px;
+    font-size: 15px;
+    height: 37px;
 	border-color:#fff;
+}
+.signup-form .form-blog input {
+    padding-left:35px;
+}
+
+#signupform-gender label input {
+    margin-top: -16px;
+}
+.signup-form  .form-blog p{
+	font-size:20px;
+}
+.signup-form .select-gender label {
+    color: #fff;
+    font-size: 16px;
+    line-height: 0;
+}
+.signup-form .form-group {
+    position: relative;
+}
+.signup-form .form-group i {
+    color: #999;
+    font-size: 22px;
+    left: 8px;
+    position: absolute;
+    top: 7px;
 }
 .form-blog .form-control::-moz-placeholder{
 	color:#fff !important;
@@ -341,15 +373,15 @@ a{
 .form-blog .help-block{
 	font-size:15px;
 }
-.form-group button {
+.login-form .form-group button {
     background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
     color:#fff !important;
     font-size: 16px;
     padding: 4px 20px;
-    width: 100%;
+    width: 100%!important;
 	border-color:#fff;
 }
-.checkbox #loginform-rememberme{
+.login-form .checkbox #loginform-rememberme{
 	height:10px;
 }
 .checkbox label{
@@ -357,17 +389,34 @@ a{
 }
 .forgot-psd {
     color: #fff;
-    float: left;
-    margin-left: -13px;
 }
 .forgot-psd  a{
     color: #f00;
 }
 /**end-login**/
+/***signup-form*******/
+.signup-form .form-blog{
+	width:370px;
+}
+.signup-first-name{
+	width:48%;
+	float:left;
+}
+.signup-last-name{
+	width:48%;
+	float:right;
+}
+.signup-form .form-blog select {
+    background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+    border: 1px solid;
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    height: 36px;
+}
+/****end-signup-form*******/
 /****add-media-query**/
-/* @media(max-width:420px){
-	.form-blog{
-		width:250px;
-	}
-} */
+/* 
+
+ */
 /**end-media-query**/

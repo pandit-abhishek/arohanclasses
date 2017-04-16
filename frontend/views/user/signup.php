@@ -10,30 +10,61 @@ $this->title = 'Signup';
 
 ?>
 <section>
-    <div class="signup-form">
+    <div class="signup-form login-form">
         <div class="form-blog">
 
-            <p>Please fill out the following fields to signup:</p>
+            <p>Registration form:</p>
             <?php $form = ActiveForm::begin([
                     'id' => 'signup-form',
+					'action'=>'signup',
                     'options' => ['class' => 'form-horizontal'],
+					'fieldConfig'=>[
+						'options'=>[
+							'tag' => false
+						]
+					]
                 ]); 
             ?>
-            
-                <?= $form->field($model, 'firstname' ,['options'=>['class' => 'form-group']])->textInput(['autofocus' => true])->input('firstname', ['placeholder' => "First Name"])->label(false); ?>
-            
-            
-            <?= $form->field($model, 'lastname',['options'=>['class' => 'form-group']])->textInput(['autofocus' => true])->input('lastname', ['placeholder' => "Last Name"])->label(false); ?>
-           
-            <?= $form->field($model, 'email',['options'=>['class' => 'form-group']])->textInput(['autofocus' => true])->input('username', ['placeholder' => "Email Or Mobile"])->label(false); ?>
-
-            <?= $form->field($model, 'password',['options'=>['class' => 'form-group']])->passwordInput()->input('password', ['placeholder' => "Password"])->label(false); ?>
-
-            <?= $form->field($model, 'confirmPassword',['options'=>['class' => 'form-group']])->passwordInput()->input('confirmPassword', ['placeholder' => "Confirm Password"])->label(false); ?>
-
-            <?= $form->field($model, 'contactNo',['options'=>['class' => 'form-group']])->textInput(['autofocus' => true])->input('contactNo', ['placeholder' => "Contact No"])->label(false); ?>
-
-            <?= $form->field($model,'gender',['options' => ['class' => 'form-group']])->radioList([
+			<div class="signup-first-name ">
+				<div class="form-group">
+					<?= $form->field($model, 'firstname')->textInput(['autofocus' => true])->input('firstname', ['placeholder' => "First Name"])->label(false); ?>
+					<i class="fa fa-user" aria-hidden="true"></i>
+				 </div>	
+            </div>
+			<div class="signup-last-name">
+				<div class="form-group">
+					<?= $form->field($model, 'lastname')->textInput(['autofocus' => true])->input('lastname', ['placeholder' => "Last Name"])->label(false); ?>
+					<i class="fa fa-user" aria-hidden="true"></i>
+				</div>
+			</div>
+			<div class="clearfix"></div>			
+			<div class="form-group">
+				<?= $form->field($model, 'email')->textInput(['autofocus' => true])->input('username', ['placeholder' => "Email Or Mobile"])->label(false); ?>
+				<i class="fa fa-envelope" aria-hidden="true"></i>
+			</div>
+			<div class="form-group">
+				<?= $form->field($model, 'password')->passwordInput()->input('password', ['placeholder' => "Password"])->label(false); ?>
+				<i class="fa fa-lock" aria-hidden="true"></i>
+			</div>
+			<div class="form-group">
+				<?= $form->field($model, 'confirmPassword')->passwordInput()->input('confirmPassword', ['placeholder' => "Confirm Password"])->label(false); ?>
+				<i class="fa fa-lock" aria-hidden="true"></i>
+			</div>
+			<div class="form-group">
+            <?= $form->field($model, 'contactNo')->textInput(['autofocus' => true])->input('contactNo', ['placeholder' => "Contact No"])->label(false); ?>
+			<i class="fa fa-phone" aria-hidden="true"></i>
+			</div>
+			<div class="form-group">
+				<?= $form->field($model,'class')->dropDownList([
+                    ''  => 'Select Class',
+                    '1' => 'XI',
+                    '2' => 'XII',
+                    '3' => 'Post XII'
+                ],['class' => 'form-group'])->label(false) ?>
+			</div>
+			
+			<div class="form-group select-gender">
+            <?= $form->field($model,'gender')->radioList([
                             'Male'=>'male',
                             'Female'=>'female'
                         ],
@@ -49,22 +80,13 @@ $this->title = 'Signup';
                             }
                         ]
                         )->label('I am a :') ?>
-
-            <?= $form->field($model,'class',['options' => ['class' => 'form-group']])->dropDownList([
-                    ''  => 'Select Class',
-                    '1' => 'XI',
-                    '2' => 'XII',
-                    '3' => 'Post XII'
-                ],['class' => 'form-group']) ?>
-
-            <div class="form-group">
-                <?= Html::submitButton('Signup', ['class' => 'btn btn-primary','disabled'=> false, 'name' => 'signup-button']) ?>
-            </div>
-
-        <?php ActiveForm::end(); ?>
-                
+			</div>
+			
+           <div class="form-group">
+                <?= Html::submitButton('Signup', ['class' => 'btn btn-primary','disabled'=> false, 'name' => 'signup-button']) ?> 
+			</div>	
+        <?php ActiveForm::end(); ?>         
         </div>
     </div> 
-
 </section>
 

@@ -12,15 +12,13 @@ $this->title = 'Login';
 					'options' => ['class' => 'form-horizontal'],
 
 				]);  ?>
-			<div class="form-group">
+			
 				<?= $form->field($model, 'username',['options' => ['class' => 'form-group']])->textInput(['class'=>'form-control', 'autofocus' => true])->input('email', ['placeholder' => "Email OR Mobile"])->label(false); ?>
-			</div>
-			<?= $form->field($model, 'password',['options' => ['class' => 'form-group']])->passwordInput()->input('email', ['placeholder' => "Password"])->label(false); ?>
-
-			<?= $form->field($model, 'rememberMe')->checkbox() ?>
-			<div class="form-group">
-				<?= Html::submitButton('Login', ['class' => 'btn btn-primary', 'disabled'=> false,'name' => 'login-button']) ?>
-			</div>
+			
+				<?= $form->field($model, 'password',['options' => ['class' => 'form-group']])->passwordInput()->input('email', ['placeholder' => "Password"])->label(false); ?>
+				<?= $form->field($model, 'rememberMe')->checkbox() ?>
+			
+				<?= Html::submitButton('Login', ['class' => 'btn btn-primary form-group', 'disabled'=> false,'name' => 'login-button']) ?>
 			<div class="forgot-psd">
 				If you forgot your password you can <?= Html::a('reset it', ['site/request-password-reset']) ?>.
 			</div>
