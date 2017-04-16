@@ -22,43 +22,43 @@ AppAsset::register($this);
     <body>	
         <?php $this->beginBody() ?>
             <div class="wrap nav-header">
-			<header>
-                <?php
-                    NavBar::begin([
-                        'brandLabel' => 'Physics Classes',
-                        'brandUrl' => Yii::$app->homeUrl,
-                        'options' => [
-                            'class' => 'navbar-inverse navbar-fixed-top',
-                        ],
-                    ]);
-                        $menuItems = [
-                            ['label' => 'Home', 'url' => ['/site/index']],
-                            ['label' => 'Contact', 'url' => ['/site/contact']],
-                            ['label' => 'Courses', 'url' => ['/site/courses']],
-                            ['label' => 'More', 'url' => ['/site/more']],
-                            ['label' => 'Batches', 'url' => ['/site/batches']],
-                        ];
-                
-                        if (Yii::$app->user->isGuest) {
-                            $menuItems[] = ['label' => 'Signup', 'url' => ['/user/signup']];
-                            $menuItems[] = ['label' => 'Login', 'url' => ['/user/login']];
-                        } else {
-                            $menuItems[] = '<li>'
-                                . Html::beginForm(['/site/logout'], 'post')
-                                . Html::submitButton(
-                                    'Logout (' . Yii::$app->user->identity->username . ')',
-                                    ['class' => 'btn btn-link logout']
-                                )
-                                . Html::endForm()
-                                . '</li>';
-                        }
-                        echo Nav::widget([
-                            'options' => ['class' => 'navbar-nav navbar-right'],
-                            'items' => $menuItems,
+    			<header>
+                    <?php
+                        NavBar::begin([
+                            'brandLabel' => 'Physics Classes',
+                            'brandUrl' => Yii::$app->homeUrl,
+                            'options' => [
+                                'class' => 'navbar-inverse navbar-fixed-top',
+                            ],
                         ]);
-                    NavBar::end();
-                ?>
-			</header>	
+                            $menuItems = [
+                                ['label' => 'Home', 'url' => ['/site/index']],
+                                ['label' => 'Contact', 'url' => ['/site/contact']],
+                                ['label' => 'Courses', 'url' => ['/site/courses']],
+                                ['label' => 'More', 'url' => ['/site/more']],
+                                ['label' => 'Batches', 'url' => ['/site/batches']],
+                            ];
+                    
+                            if (Yii::$app->user->isGuest) {
+                                $menuItems[] = ['label' => 'Signup', 'url' => ['/user/signup']];
+                                $menuItems[] = ['label' => 'Login', 'url' => ['/user/login']];
+                            } else {
+                                $menuItems[] = '<li>'
+                                    . Html::beginForm(['/site/logout'], 'post')
+                                    . Html::submitButton(
+                                        'Logout (' . Yii::$app->user->identity->username . ')',
+                                        ['class' => 'btn btn-link logout']
+                                    )
+                                    . Html::endForm()
+                                    . '</li>';
+                            }
+                            echo Nav::widget([
+                                'options' => ['class' => 'navbar-nav navbar-right'],
+                                'items' => $menuItems,
+                            ]);
+                        NavBar::end();
+                    ?>
+    			</header>	
 
                <!--  <div class="container"> -->
                     <?= Breadcrumbs::widget([

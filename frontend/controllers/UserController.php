@@ -37,19 +37,26 @@ class UserController extends Controller
 
     
 	public function actionSignup(){
-		$model = new SignupForm();
-        // print_r($model);die;
-        if ($model->load(Yii::$app->request->post())) {
-            if ($user = $model->signup()) {
-                if (Yii::$app->getUser()->login($user)) {
-                    return $this->goHome();
+        // echo 'here';die;
+        $model = new SignupForm();
+        if(!empty(Yii::$app->request->post())){
+            $post = Yii::$app->request->post();
+            
+
+            print_r(Yii::$app->request->post());die;
+
+            if ($model->load(Yii::$app->request->post())) {
+                if ($user = $model->signup()) {
+                    if (Yii::$app->getUser()->login($user)) {
+                        return $this->goHome();
+                    }
                 }
             }
+        }else{
+            return $this->render('signup', [
+                'model' => $model,
+            ]); 
         }
-
-        return $this->render('signup', [
-            'model' => $model,
-        ]);
 	}
 
 

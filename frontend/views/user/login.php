@@ -12,9 +12,9 @@ $this->title = 'Login';
 					'options' => ['class' => 'form-horizontal'],
 
 				]);  ?>
-
-			<?= $form->field($model, 'username',['options' => ['class' => 'form-group']])->textInput(['class'=>'form-control', 'autofocus' => true])->input('email', ['placeholder' => "Email OR Mobile"])->label(false); ?>
-
+			<div class="form-group">
+				<?= $form->field($model, 'username',['options' => ['class' => 'form-group']])->textInput(['class'=>'form-control', 'autofocus' => true])->input('email', ['placeholder' => "Email OR Mobile"])->label(false); ?>
+			</div>
 			<?= $form->field($model, 'password',['options' => ['class' => 'form-group']])->passwordInput()->input('email', ['placeholder' => "Password"])->label(false); ?>
 
 			<?= $form->field($model, 'rememberMe')->checkbox() ?>

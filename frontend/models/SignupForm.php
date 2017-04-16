@@ -11,11 +11,12 @@ class SignupForm extends Model
 {
     public $firstname;
     public $lastname;
-    public $username;
     public $email;
     public $password;
+    public $confirmPassword;
     public $contactNo;
     public $gender;
+    public $class;
 
     
     /*public function attributes(){
@@ -36,19 +37,19 @@ class SignupForm extends Model
     {
         return [
             ['username', 'trim'],
-            ['username', 'required'],
+            [['username','firstname','lastname','email','password','confirmPassword','contactNo','gender','class'], 'required'],
             ['username', 'unique', 'targetClass' => '\common\models\User', 'message' => 'This username has already been taken.'],
             ['username', 'string', 'min' => 2, 'max' => 255],
 
             ['email', 'trim'],
-            ['email', 'required'],
+            // ['email', 'required'],
             ['email', 'email'],
             ['email', 'string', 'max' => 255],
             ['email', 'unique', 'targetClass' => '\common\models\User', 'message' => 'This email address has already been taken.'],
 
             ['password', 'required'],
             ['password', 'string', 'min' => 6],
-            [['firstname','lastname','username','email','password','contactNo'],'safe']
+            [['firstname','lastname','username','email','password','contactNo','class'],'safe']
         ];
     }
 
