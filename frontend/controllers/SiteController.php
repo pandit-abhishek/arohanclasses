@@ -216,6 +216,7 @@ class SiteController extends Controller
      * { function_description }
      */
     public function actionCourses(){
+        // return $this->render('underConstruction');
         return $this->render('courses');
     }
 
@@ -228,7 +229,8 @@ class SiteController extends Controller
     }
 
     public function actionMore(){
-        return $this->render('more');
+        return $this->render('underConstruction');
+        // return $this->render('more');
     }
 
 

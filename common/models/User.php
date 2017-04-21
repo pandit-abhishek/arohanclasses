@@ -38,10 +38,17 @@ class User extends ActiveRecord implements IdentityInterface
     public function attributes(){
         return[
             'id',
+            'firstname',
+            'lastname',
             'username',
             'password',
-            'email',
+            'confirmPassword',
+            'contactNo',
+            'class',
+            'gender',
             'status',
+            'deviceType',
+            'auth_key',
             'created_at',
             'updated_at'
         ];
@@ -67,6 +74,7 @@ class User extends ActiveRecord implements IdentityInterface
         return [
             ['status', 'default', 'value' => self::STATUS_ACTIVE],
             ['status', 'in', 'range' => [self::STATUS_ACTIVE, self::STATUS_DELETED]],
+            [['id','firstname','lastname','username','password','confirmPassword','contactNo','class','gender','status','deviceType','auth_key','created_at','updated_at'],'safe']
         ];
     }
 
@@ -203,5 +211,25 @@ class User extends ActiveRecord implements IdentityInterface
 
     public function beforeSave(){
         return true;
+    }
+
+    public function setAttr($post){
+        // echo"<pre>";print_r($post);die;
+        $this->firstname = $post['firstname'];
+        $this->lastname = $post['lastname'];
+        $this->username = $post['email'];
+        $this->password = $post['password'];
+        $this->confirmPassword = $post['confirmPassword'];
+        $this->contactNo = $post['contactNo'];
+        $this->class = $post['class'];
+        $this->gender = $post['gender'];
+        $this->status = self::STATUS_ACTIVE;
+        $this->deviceType = 'Desktop';
+        $this->generateAuthKey();
+        $this->created_at = Date('Y-m-d H:i:s');
+        $this->updated_at = Date('Y-m-d H:i:s');
+        return $this;
+        // echo"<pre>";print_r($this->attributes);die;
+        // return $user->save() ? $user : null;
     }
 }

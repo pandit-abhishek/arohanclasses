@@ -32,26 +32,28 @@ AppAsset::register($this);
                                 'class' => 'navbar-inverse navbar-fixed-top',
                             ],
                         ]);
-                            $menuItems = [
-                                ['label' => 'Home', 'url' => ['/site/index']],
-                                ['label' => 'Contact', 'url' => ['/site/contact']],
-                                ['label' => 'Courses', 'url' => ['/site/courses']],
-                                ['label' => 'More', 'url' => ['/site/more']],
-                                ['label' => 'Batches', 'url' => ['/site/batches']],
-                            ];
+                            
                     
                             if (Yii::$app->user->isGuest) {
+                                $menuItems = [
+                                    ['label' => 'Home', 'url' => ['/site/index']],
+                                    ['label' => 'Contact', 'url' => ['/site/contact']],
+                                    ['label' => 'Courses', 'url' => ['/site/courses']],
+                                    ['label' => 'More', 'url' => ['/site/more']],
+                                    ['label' => 'Batches', 'url' => ['/site/batches']],
+                                ];
                                 $menuItems[] = ['label' => 'Signup', 'url' => ['/user/signup']];
                                 $menuItems[] = ['label' => 'Login', 'url' => ['/user/login']];
                             } else {
-                                $menuItems[] = '<li>'
-                                    . Html::beginForm(['/site/logout'], 'post')
-                                    . Html::submitButton(
-                                        'Logout (' . Yii::$app->user->identity->username . ')',
-                                        ['class' => 'btn btn-link logout']
-                                    )
-                                    . Html::endForm()
-                                    . '</li>';
+                                $menuItems = [
+                                    ['label' => 'Home', 'url' => ['/user/home']],
+                                    ['label' => 'Contact', 'url' => ['/site/contact']],
+                                    ['label' => 'Courses', 'url' => ['/site/courses']],
+                                    ['label' => 'More', 'url' => ['/site/more']],
+                                    ['label' => 'Batches', 'url' => ['/site/batches']],
+                                ];
+                                $menuItems[] = ['label' => 'Logout', 'url' => ['/site/logout'],'linkOptions' => ['data' => ['method' => 'post']]];
+
                             }
                             echo Nav::widget([
                                 'options' => ['class' => 'navbar-nav navbar-right'],

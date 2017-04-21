@@ -42,8 +42,8 @@ return [
             'showScriptName' => false,
             'rules' => [
                 '/' => 'site/index',
-                '<alias:contact|about|courses|batches|construction|more>' => 'site/<alias>',
-                '<alias:signup|login>' => 'user/<alias>',
+                '<alias:contact|about|courses|batches|construction|more|logout>' => 'site/<alias>',
+                '<alias:signup|login|home>' => 'user/<alias>',
                 'GET facility'=>'site/we-provides',
             ],
         ],

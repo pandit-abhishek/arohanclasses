@@ -16,44 +16,54 @@ $this->title = 'Signup';
             <p>Registration form:</p>
             <?php $form = ActiveForm::begin([
                     'id' => 'signup-form',
-					'action'=>'signup',
+					// 'action'=>'signup',
                     'options' => ['class' => 'form-horizontal'],
+                    'requiredCssClass'=>'required',
 					'fieldConfig'=>[
 						'options'=>[
 							'tag' => false
-						]
+						],
+
 					]
                 ]); 
             ?>
+
 			<div class="signup-first-name ">
-				<div class="form-group">
+				<div class="form-group field-signupform-firstname required">
 					<?= $form->field($model, 'firstname')->textInput(['autofocus' => true])->input('firstname', ['placeholder' => "First Name"])->label(false); ?>
 					<i class="fa fa-user" aria-hidden="true"></i>
 				 </div>	
             </div>
+
 			<div class="signup-last-name">
 				<div class="form-group">
 					<?= $form->field($model, 'lastname')->textInput(['autofocus' => true])->input('lastname', ['placeholder' => "Last Name"])->label(false); ?>
 					<i class="fa fa-user" aria-hidden="true"></i>
 				</div>
 			</div>
-			<div class="clearfix"></div>			
+
+			<div class="clearfix"></div>	
+
 			<div class="form-group">
-				<?= $form->field($model, 'email')->textInput(['autofocus' => true])->input('username', ['placeholder' => "Email Or Mobile"])->label(false); ?>
+				<?= $form->field($model, 'email')->textInput(['autofocus' => true])->input('email', ['placeholder' => "Email Or Mobile"])->label(false); ?>
 				<i class="fa fa-envelope" aria-hidden="true"></i>
 			</div>
+
 			<div class="form-group">
 				<?= $form->field($model, 'password')->passwordInput()->input('password', ['placeholder' => "Password"])->label(false); ?>
 				<i class="fa fa-lock" aria-hidden="true"></i>
 			</div>
+
 			<div class="form-group">
-				<?= $form->field($model, 'confirmPassword')->passwordInput()->input('confirmPassword', ['placeholder' => "Confirm Password"])->label(false); ?>
+				<?= $form->field($model, 'confirmPassword')->passwordInput()->input('password', ['placeholder' => "Confirm Password"])->label(false); ?>
 				<i class="fa fa-lock" aria-hidden="true"></i>
 			</div>
+
 			<div class="form-group">
-            <?= $form->field($model, 'contactNo')->textInput(['autofocus' => true])->input('contactNo', ['placeholder' => "Contact No"])->label(false); ?>
-			<i class="fa fa-phone" aria-hidden="true"></i>
+            	<?= $form->field($model, 'contactNo')->textInput(['autofocus' => true])->input('contactNo', ['placeholder' => "Contact No"])->label(false); ?>
+				<i class="fa fa-phone" aria-hidden="true"></i>
 			</div>
+
 			<div class="form-group">
 				<?= $form->field($model,'class')->dropDownList([
                     ''  => 'Select Class',
@@ -82,8 +92,8 @@ $this->title = 'Signup';
                         )->label('I am a :') ?>
 			</div>
 			
-           <div class="form-group">
-                <?= Html::submitButton('Signup', ['class' => 'btn btn-primary','disabled'=> false, 'name' => 'signup-button']) ?> 
+           	<div class="form-group">
+                <?= Html::submitButton('Signup', ['class' => 'btn btn-primary', 'name' => 'signup-button']) ?> 
 			</div>	
         <?php ActiveForm::end(); ?>         
         </div>

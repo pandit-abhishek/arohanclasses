@@ -420,3 +420,149 @@ a{
 
  */
 /**end-media-query**/
+
+/**
+ * Start Contact form
+ */
+.contact-container {
+  width: 100%;
+  display: table;
+  margin-top: 51px;
+}
+
+.contact-container p:first-child {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-family: inherit;
+  color: blue;
+}
+.contact-form{
+  float:left;
+  width:35%;
+  display: block;
+  margin-left: 35px;
+  
+}
+.contact-form input{
+  width:100%;
+}
+
+.contact-number-block {
+  float:right;
+  width:48%;
+  display: block;
+  border: 1px #000 solid;
+}
+
+/**
+ * End Contact form
+ */
+
+.course-container{
+  width: 100%;
+  display:table;
+  margin-top: 51px;
+}
+.course-container .heading {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-family: inherit;
+  color: blue;
+
+}
+
+.class-room-courses{
+  float: left;
+  display: block;
+  width: 32%;
+  height: 230px;
+  border:1px #000 solid;
+  margin-left: 10px;
+}
+
+.jee-main{
+  float: left;
+  display: block;
+  margin-left: 10px;
+  width: 32%;
+  height: 230px;
+  border:1px #000 solid;
+}
+
+.jee-advance{
+  float: right;
+  display: block;
+  margin-right: 10px;
+  width: 32%;
+  height: 230px;
+  border:1px #000 solid;
+}
+
+.neet {
+  float: left;
+  display: block;
+  width: 32%;
+  height: 230px;
+  border:1px #000 solid;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.eleventh{
+  float: left;
+  display: block;
+  width: 32%;
+  height: 230px;
+  border:1px #000 solid;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.twelth{
+  float: right;
+  display: block;
+  margin-left: 10px;
+  width: 32%;
+  height: 230px;
+  border:1px #000 solid;
+  margin-top: 20px;
+}
+
+
+.batches {
+  display: table;
+  width: 100%;
+  margin-top: 51px;
+  height: 352px;
+}
+
+.current-batches {
+  display: block;
+  float: left;
+  width: 35%;
+  margin-top: 50px;
+  margin-left:14%;
+  border: 1px #000 solid;
+  height: 230px;
+}
+
+.upcoming-batches {
+  display: block;
+  float: right;
+  width: 35%;
+  margin-right:14%;
+  margin-top: 50px;
+  border: 1px #000 solid;
+  height: 230px;
+}
+
+
+.welcome {
+  float: right;
+  margin-right: 30px;
+  margin-top: 10px;
+  font-family: inherit;
+  color: green;
+}

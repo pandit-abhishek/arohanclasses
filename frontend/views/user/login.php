@@ -15,7 +15,8 @@ $this->title = 'Login';
 			
 				<?= $form->field($model, 'username',['options' => ['class' => 'form-group']])->textInput(['class'=>'form-control', 'autofocus' => true])->input('email', ['placeholder' => "Email OR Mobile"])->label(false); ?>
 			
-				<?= $form->field($model, 'password',['options' => ['class' => 'form-group']])->passwordInput()->input('email', ['placeholder' => "Password"])->label(false); ?>
+				<?= $form->field($model, 'password',['options' => ['class' => 'form-group']])->passwordInput()->input('password', ['placeholder' => "Password"])->label(false); ?>
+				
 				<?= $form->field($model, 'rememberMe')->checkbox() ?>
 			
 				<?= Html::submitButton('Login', ['class' => 'btn btn-primary form-group', 'disabled'=> false,'name' => 'login-button']) ?>

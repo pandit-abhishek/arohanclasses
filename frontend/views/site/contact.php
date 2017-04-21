@@ -7,39 +7,39 @@ use yii\captcha\Captcha;
 $this->title = 'Contact';
 
 ?>
-<div class="site-contact">
-    <div class="contact-container">
-       <h1><?= Html::encode($this->title) ?></h1>
-        <p>If you have any query feel free to call or please fill out the following form to contact us.Thanks.</p>
-        <div class="contact-left">
-            <div class="row">
-                <div class="col-lg-5">
-                    <?php $form = ActiveForm::begin(['id' => 'contact-form']); ?>
+<section>
+   <div class="contact-container">
+        
+        <p>If you have any query feel free to call us or you can also email.</p>
 
-                        <?= $form->field($model, 'name')->textInput(['autofocus' => true]) ?>
+        <div class="contact-form">
+                <!-- <p>Contact Form:</p> -->
+                <?php $form = ActiveForm::begin(['id' => 'contact-form']); ?>
 
-                        <?= $form->field($model, 'email') ?>
+                    <?= $form->field($model, 'name',['options' => ['class' => 'form-group']])->textInput(['autofocus' => true]) ?>
 
-                        <?= $form->field($model, 'subject') ?>
+                    <?= $form->field($model, 'email',['options' => ['class' => 'form-group']]) ?>
 
-                        <?= $form->field($model, 'body')->textarea(['rows' => 6]) ?>
+                    <?= $form->field($model, 'subject') ?>
 
-                        <?= $form->field($model, 'verifyCode')->widget(Captcha::className(), [
-                            'template' => '<div class="row"><div class="col-lg-3">{image}</div><div class="col-lg-6">{input}</div></div>',
-                        ]) ?>
+                    <?= $form->field($model, 'body')->textarea(['rows' => 5]) ?>
 
-                        <div class="form-group">
-                            <?= Html::submitButton('Submit', ['class' => 'btn btn-primary', 'name' => 'contact-button']) ?>
-                        </div>
+                    <?= $form->field($model, 'verifyCode')->widget(Captcha::className(), [
+                        'template' => '<div class="row"><div class="col-lg-3">{image}</div><div class="col-lg-6">{input}</div></div>',
+                    ]) ?>
 
-                    <?php ActiveForm::end(); ?>
-                </div>
-            </div>
+                    <div class="form-group">
+                        <?= Html::submitButton('Submit', ['class' => 'btn btn-primary', 'name' => 'contact-button']) ?>
+                    </div>
+
+                <?php ActiveForm::end(); ?>
+                
         </div>
         
-        <div classs="contact-right">
+        <div classs="contact-number-block">
+            <p>Route Map</p>
             
         </div>
-    </div>
-    
-</div>
+    </div> 
+</section>
+

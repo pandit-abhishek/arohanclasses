@@ -1,12 +1,15 @@
 <?php
 use yii\helpers\Html;
-$this->title = 'Courses';
+$this->title = 'Batches';
 
 ?>
-<div class="site-about">
-    <h1><?= Html::encode($this->title) ?></h1>
-
-    <p>This is the About page. You may modify the following file to customize its content:</p>
-
-    
-</div>
+<section>
+	<div class ="batches">
+		<div class="current-batches">
+			<p>Current batches</p>
+		</div>
+		<div class="upcoming-batches">
+			<p>Upcoming batches</p>
+		</div>
+	</div>
+</section>

@@ -15,8 +15,9 @@ class SignupForm extends Model
     public $password;
     public $confirmPassword;
     public $contactNo;
-    public $gender;
     public $class;
+    public $gender;
+    
 
     
     /*public function attributes(){
@@ -36,20 +37,19 @@ class SignupForm extends Model
     public function rules()
     {
         return [
-            ['username', 'trim'],
-            [['username','firstname','lastname','email','password','confirmPassword','contactNo','gender','class'], 'required'],
-            ['username', 'unique', 'targetClass' => '\common\models\User', 'message' => 'This username has already been taken.'],
-            ['username', 'string', 'min' => 2, 'max' => 255],
+            [['firstname','lastname','email','password','confirmPassword','contactNo','class','gender'], 'required'],
+            // ['email', 'unique', 'targetClass' => '\common\models\User', 'message' => 'This username has already been taken.'],
+            // ['username', 'string', 'min' => 2, 'max' => 255],
 
             ['email', 'trim'],
-            // ['email', 'required'],
+            ['email', 'required'],
             ['email', 'email'],
             ['email', 'string', 'max' => 255],
             ['email', 'unique', 'targetClass' => '\common\models\User', 'message' => 'This email address has already been taken.'],
 
-            ['password', 'required'],
+            // ['password', 'required'],
             ['password', 'string', 'min' => 6],
-            [['firstname','lastname','username','email','password','contactNo','class'],'safe']
+            [['firstname','lastname','email','password','confirmPassword','contactNo','class'],'safe']
         ];
     }
 
@@ -60,18 +60,19 @@ class SignupForm extends Model
      */
     public function signup()
     {
+
         if (!$this->validate()) {
             return null;
         }
-        
+        // echo"<pre>";print_r($this->attributes);die;
         $user = new User();
-        $user->username = $this->username;
-        $user->email = $this->email;
-        $user->password = $this->password;
-        $user->status = 1;
-        $user->created_at = Date('Y-m-d H:i:s');
-        $user->updated_at = Date('Y-m-d H:i:s');
-        // print_r($user->attributes);die;
-        return $user->save() ? $user : null;
+        $userData = $user->setAttr($this->attributes);
+        if($userData && $user->save()){
+            return $userData;
+        }else{
+            echo"<pre>";print_r($userData->errors);die;
+            return false;
+        }
+        
     }
 }
