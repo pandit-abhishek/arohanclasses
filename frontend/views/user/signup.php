@@ -1,9 +1,5 @@
 <?php
 
-/* @var $this yii\web\View */
-/* @var $form yii\bootstrap\ActiveForm */
-/* @var $model \frontend\models\SignupForm */
-
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 $this->title = 'Signup';
@@ -16,8 +12,7 @@ $this->title = 'Signup';
             <p>Registration form:</p>
             <?php $form = ActiveForm::begin([
                     'id' => 'signup-form',
-					// 'action'=>'signup',
-                    'options' => ['class' => 'form-horizontal'],
+					'options' => ['class' => 'form-horizontal'],
                     'requiredCssClass'=>'required',
 					'fieldConfig'=>[
 						'options'=>[
@@ -45,7 +40,7 @@ $this->title = 'Signup';
 			<div class="clearfix"></div>	
 
 			<div class="form-group">
-				<?= $form->field($model, 'email')->textInput(['autofocus' => true])->input('email', ['placeholder' => "Email Or Mobile"])->label(false); ?>
+				<?= $form->field($model, 'username')->textInput(['autofocus' => true])->input('username', ['placeholder' => "Email Or Mobile"])->label(false); ?>
 				<i class="fa fa-envelope" aria-hidden="true"></i>
 			</div>
 

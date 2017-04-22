@@ -531,6 +531,10 @@ a{
 }
 
 
+
+
+
+
 .batches {
   display: table;
   width: 100%;
@@ -559,10 +563,83 @@ a{
 }
 
 
+
+
+.user-container {
+  width: 100%;
+  display:table;
+  margin-top: 51px;
+}
+
+.user-container .heading {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-family: inherit;
+  color: blue;
+}
+
 .welcome {
   float: right;
   margin-right: 30px;
-  margin-top: 10px;
+  margin-top: 60px;
   font-family: inherit;
   color: green;
+}
+
+.user-container .study-material {
+  float: left;
+  display: block;
+  width: 32%;
+  height: 230px;
+  border:1px #000 solid;
+  margin-left: 10px;
+}
+
+.user-container .video-lecture {
+  float: left;
+  display: block;
+  width: 32%;
+  height: 230px;
+  border:1px #000 solid;
+  margin-left: 10px;
+}
+
+.user-container .test-series {
+  float: right;
+  display: block;
+  margin-right: 10px;
+  width: 32%;
+  height: 230px;
+  border:1px #000 solid;
+}
+
+.user-container .extra-classes {
+  float: left;
+  display: block;
+  width: 32%;
+  height: 230px;
+  border:1px #000 solid;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.user-container .free-demo-classes {
+  float: left;
+  display: block;
+  width: 32%;
+  height: 230px;
+  border:1px #000 solid;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.user-container .life-of-science {
+  float: left;
+  display: block;
+  width: 32%;
+  height: 230px;
+  border:1px #000 solid;
+  margin-left: 10px;
+  margin-top: 20px;
 }

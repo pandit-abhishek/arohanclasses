@@ -6,6 +6,7 @@ use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use frontend\assets\AppAsset;
 use common\widgets\Alert;
+use frontend\components\CustomYii;
 
 AppAsset::register($this);
 ?>
@@ -61,15 +62,27 @@ AppAsset::register($this);
                             ]);
                         NavBar::end();
                     ?>
-    			</header>	
+    			</header>
 
-               <!--  <div class="container"> -->
+                <?php 
+                    if(!Yii::$app->user->isGuest){ 
+                        $user = Yii::$app->user->identity;
+                    ?>	
+                        <div class="welcome">
+                            <p>Welcome <?php echo ucfirst($user->firstname);?></p>
+                        </div>
+
+                <?php } ?>
+                    
+                
+                <!-- <div class="container"> -->
                     <?= Breadcrumbs::widget([
                         'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
                     ]) ?>
                     <?= Alert::widget() ?>
+
                     <?= $content ?>
-               <!--  </div> -->
+                <!-- </div> -->
             </div>
             <footer class="footer">
                 <div class="footer-section">
@@ -95,7 +108,7 @@ AppAsset::register($this);
 						<div class="row">
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								<p class="pull-left">© Physics Classes <?php echo date("Y")?></p>
-								<p class="pull-right"><?= Yii::powered()?></p>
+								<p class="pull-right">Powered By <a href="#"><?= CustomYii::powered()?></a></p>
 							</div>
 						</div>
 					</div>

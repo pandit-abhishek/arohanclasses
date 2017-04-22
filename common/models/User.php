@@ -209,15 +209,20 @@ class User extends ActiveRecord implements IdentityInterface
         $this->password_reset_token = null;
     }
 
-    public function beforeSave(){
-        return true;
+    public function beforeSave($insert)
+    {
+        if (parent::beforeSave($insert)) {
+            return true;
+        } 
+        else {
+            return false;
+        }
     }
 
     public function setAttr($post){
-        // echo"<pre>";print_r($post);die;
         $this->firstname = $post['firstname'];
         $this->lastname = $post['lastname'];
-        $this->username = $post['email'];
+        $this->username = $post['username'];
         $this->password = $post['password'];
         $this->confirmPassword = $post['confirmPassword'];
         $this->contactNo = $post['contactNo'];
@@ -229,7 +234,5 @@ class User extends ActiveRecord implements IdentityInterface
         $this->created_at = Date('Y-m-d H:i:s');
         $this->updated_at = Date('Y-m-d H:i:s');
         return $this;
-        // echo"<pre>";print_r($this->attributes);die;
-        // return $user->save() ? $user : null;
     }
 }

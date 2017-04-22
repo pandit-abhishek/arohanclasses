@@ -37,17 +37,13 @@ class UserController extends Controller
 
     
 	public function actionSignup(){
-        // echo 'here';die;
+       
         $model = new SignupForm();
         if(!empty(Yii::$app->request->post())){
-            $post = Yii::$app->request->post();
-            // echo 'here';die;
-
-            // echo"<pre>";print_r(Yii::$app->request->post());die;
-
+            
             if ($model->load(Yii::$app->request->post())) {
                 if ($user = $model->signup()) {
-                    // print_r($user);die;
+                   
                     if (Yii::$app->getUser()->login($user)) {
                         return $this->render('user', [
                             'model' => $user
@@ -56,7 +52,6 @@ class UserController extends Controller
                 }
             }
         }else{
-            // print_r($model);die;
             return $this->render('signup', [
                 'model' => $model,
             ]); 
@@ -65,26 +60,35 @@ class UserController extends Controller
 
 
 	public function actionLogin(){
-        // echo 'here';die;
+        
 		if (!Yii::$app->user->isGuest) {
             return $this->goHome();
         }
 
         $model = new LoginForm();
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
-            // echo 'here';die;
+            $user = Yii::$app->user->identity;
             return $this->render('user', [
-                    'model' => $model
+                    'model' => $user
                 ]);
-        } else {
-            // echo 'here';die;
+        }else {
             return $this->render('login', [
                 'model' => $model,
             ]);
         }
 	}
 
+
+
     public function actionHome(){
-        return $this->render('user');
+        if(!Yii::$app->user->isGuest) {
+            $user = Yii::$app->user->identity;
+            return $this->render('user',[
+                'model' => $user
+            ]);
+        }else{
+            return $this->render('index');
+        }
+        
     }
 }

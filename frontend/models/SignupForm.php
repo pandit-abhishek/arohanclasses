@@ -11,7 +11,7 @@ class SignupForm extends Model
 {
     public $firstname;
     public $lastname;
-    public $email;
+    public $username;
     public $password;
     public $confirmPassword;
     public $contactNo;
@@ -37,19 +37,17 @@ class SignupForm extends Model
     public function rules()
     {
         return [
-            [['firstname','lastname','email','password','confirmPassword','contactNo','class','gender'], 'required'],
-            // ['email', 'unique', 'targetClass' => '\common\models\User', 'message' => 'This username has already been taken.'],
+            [['firstname','lastname','username','password','confirmPassword','contactNo','class','gender'], 'required'],
+            ['username', 'unique', 'targetClass' => '\common\models\User', 'message' => 'This username has already been taken.'],
             // ['username', 'string', 'min' => 2, 'max' => 255],
 
-            ['email', 'trim'],
-            ['email', 'required'],
-            ['email', 'email'],
-            ['email', 'string', 'max' => 255],
-            ['email', 'unique', 'targetClass' => '\common\models\User', 'message' => 'This email address has already been taken.'],
+            ['username', 'trim'],
+            // ['username', 'email'],
+            // ['email', 'string', 'max' => 255],
+            // ['email', 'unique', 'targetClass' => '\common\models\User', 'message' => 'This email address has already been taken.'],
 
-            // ['password', 'required'],
             ['password', 'string', 'min' => 6],
-            [['firstname','lastname','email','password','confirmPassword','contactNo','class'],'safe']
+            [['firstname','lastname','username','password','confirmPassword','contactNo','class'],'safe']
         ];
     }
 
@@ -60,17 +58,16 @@ class SignupForm extends Model
      */
     public function signup()
     {
-
         if (!$this->validate()) {
             return null;
         }
-        // echo"<pre>";print_r($this->attributes);die;
+        
         $user = new User();
         $userData = $user->setAttr($this->attributes);
+
         if($userData && $user->save()){
             return $userData;
-        }else{
-            echo"<pre>";print_r($userData->errors);die;
+        }else {
             return false;
         }
         

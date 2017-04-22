@@ -80,7 +80,7 @@ class SiteController extends Controller
      *
      * @return mixed
      */
-    public function actionLogin()
+    /*public function actionLogin()
     {
         
         if (!Yii::$app->user->isGuest) {
@@ -95,7 +95,7 @@ class SiteController extends Controller
                 'model' => $model,
             ]);
         }
-    }
+    }*/
 
     /**
      * Logs out the current user.
@@ -116,6 +116,7 @@ class SiteController extends Controller
      */
     public function actionContact()
     {
+        
         $model = new ContactForm();
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
             if ($model->sendEmail(Yii::$app->params['adminEmail'])) {
@@ -147,7 +148,7 @@ class SiteController extends Controller
      *
      * @return mixed
      */
-    public function actionSignup()
+    /*public function actionSignup()
     {
         $model = new SignupForm();
         if ($model->load(Yii::$app->request->post())) {
@@ -161,7 +162,7 @@ class SiteController extends Controller
         return $this->render('signup', [
             'model' => $model,
         ]);
-    }
+    }*/
 
     /**
      * Requests password reset.
