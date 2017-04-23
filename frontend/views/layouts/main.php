@@ -40,18 +40,17 @@ AppAsset::register($this);
                                     ['label' => 'Home', 'url' => ['/site/index']],
                                     ['label' => 'Contact', 'url' => ['/site/contact']],
                                     ['label' => 'Courses', 'url' => ['/site/courses']],
-                                    ['label' => 'More', 'url' => ['/site/more']],
                                     ['label' => 'Batches', 'url' => ['/site/batches']],
+                                    ['label' => 'Signup', 'url' => ['/user/signup']],
+                                    ['label' => 'Login', 'url' => ['/user/login']],
                                 ];
-                                $menuItems[] = ['label' => 'Signup', 'url' => ['/user/signup']];
-                                $menuItems[] = ['label' => 'Login', 'url' => ['/user/login']];
                             } else {
                                 $menuItems = [
                                     ['label' => 'Home', 'url' => ['/user/home']],
                                     ['label' => 'Contact', 'url' => ['/site/contact']],
                                     ['label' => 'Courses', 'url' => ['/site/courses']],
-                                    ['label' => 'More', 'url' => ['/site/more']],
                                     ['label' => 'Batches', 'url' => ['/site/batches']],
+                                    ['label' => 'More', 'url' => ['/site/more']],
                                 ];
                                 $menuItems[] = ['label' => 'Logout', 'url' => ['/site/logout'],'linkOptions' => ['data' => ['method' => 'post']]];
 
@@ -74,6 +73,17 @@ AppAsset::register($this);
 
                 <?php } ?>
                     
+                <?php if(Yii::$app->session->hasFlash('success')): ?>
+                    <div class="alert alert-success" role="alert">
+                        <span><?= Yii::$app->session->getFlash('success') ?></span>
+                    </div>
+                <?php endif; ?>
+
+                <?php if(Yii::$app->session->hasFlash('error')): ?>
+                    <div class="alert alert-error" role="alert">
+                        <span><?= Yii::$app->session->getFlash('error') ?></span>
+                    </div>
+                <?php endif; ?>
                 
                 <!-- <div class="container"> -->
                     <?= Breadcrumbs::widget([

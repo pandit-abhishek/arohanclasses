@@ -42,13 +42,15 @@ class User extends ActiveRecord implements IdentityInterface
             'lastname',
             'username',
             'password',
-            'confirmPassword',
-            'contactNo',
+            'confirm_pass',
+            'contact',
             'class',
             'gender',
             'status',
-            'deviceType',
+            'device',
             'auth_key',
+            'password_hash',
+            'password_reset_token',
             'created_at',
             'updated_at'
         ];
@@ -58,12 +60,12 @@ class User extends ActiveRecord implements IdentityInterface
     /**
      * @inheritdoc
      */
-    public function behaviors()
+    /*public function behaviors()
     {
         return [
             TimestampBehavior::className(),
         ];
-    }
+    }*/
 
 
     /**
@@ -74,7 +76,7 @@ class User extends ActiveRecord implements IdentityInterface
         return [
             ['status', 'default', 'value' => self::STATUS_ACTIVE],
             ['status', 'in', 'range' => [self::STATUS_ACTIVE, self::STATUS_DELETED]],
-            [['id','firstname','lastname','username','password','confirmPassword','contactNo','class','gender','status','deviceType','auth_key','created_at','updated_at'],'safe']
+            [['id','firstname','lastname','username','password','confirm_pass','contact','class','gender','status','device','auth_key','password_hash','password_reset_token','created_at','updated_at'],'safe']
         ];
     }
 
@@ -224,13 +226,15 @@ class User extends ActiveRecord implements IdentityInterface
         $this->lastname = $post['lastname'];
         $this->username = $post['username'];
         $this->password = $post['password'];
-        $this->confirmPassword = $post['confirmPassword'];
-        $this->contactNo = $post['contactNo'];
+        $this->confirm_pass = $post['confirm_pass'];
+        $this->contact = $post['contact'];
         $this->class = $post['class'];
         $this->gender = $post['gender'];
         $this->status = self::STATUS_ACTIVE;
-        $this->deviceType = 'Desktop';
+        $this->device = 'Desktop';
         $this->generateAuthKey();
+        $this->setPassword($post['password']);
+        $this->generatePasswordResetToken();
         $this->created_at = Date('Y-m-d H:i:s');
         $this->updated_at = Date('Y-m-d H:i:s');
         return $this;

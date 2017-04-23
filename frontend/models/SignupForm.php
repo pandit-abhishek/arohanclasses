@@ -13,8 +13,8 @@ class SignupForm extends Model
     public $lastname;
     public $username;
     public $password;
-    public $confirmPassword;
-    public $contactNo;
+    public $confirm_pass;
+    public $contact;
     public $class;
     public $gender;
     
@@ -37,17 +37,13 @@ class SignupForm extends Model
     public function rules()
     {
         return [
-            [['firstname','lastname','username','password','confirmPassword','contactNo','class','gender'], 'required'],
+            [['firstname','lastname','username','password','confirm_pass','contact','class','gender'], 'required'],
             ['username', 'unique', 'targetClass' => '\common\models\User', 'message' => 'This username has already been taken.'],
             // ['username', 'string', 'min' => 2, 'max' => 255],
 
             ['username', 'trim'],
-            // ['username', 'email'],
-            // ['email', 'string', 'max' => 255],
-            // ['email', 'unique', 'targetClass' => '\common\models\User', 'message' => 'This email address has already been taken.'],
-
             ['password', 'string', 'min' => 6],
-            [['firstname','lastname','username','password','confirmPassword','contactNo','class'],'safe']
+            [['firstname','lastname','username','password','confirm_pass','contact','class'],'safe']
         ];
     }
 

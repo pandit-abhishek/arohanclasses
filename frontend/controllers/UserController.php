@@ -5,9 +5,12 @@ use Yii;
 use yii\web\Controller;
 use frontend\models\SignupForm;
 use common\models\LoginForm;
+use yii\filters\VerbFilter;
+use yii\filters\AccessControl;
+
 class UserController extends Controller
 {
-	/*public function behaviors()
+	public function behaviors()
     {
         return [
             'access' => [
@@ -33,7 +36,7 @@ class UserController extends Controller
                 ],
             ],
         ];
-    }*/
+    }
 
     
 	public function actionSignup(){
@@ -43,11 +46,8 @@ class UserController extends Controller
             
             if ($model->load(Yii::$app->request->post())) {
                 if ($user = $model->signup()) {
-                   
                     if (Yii::$app->getUser()->login($user)) {
-                        return $this->render('user', [
-                            'model' => $user
-                        ]); 
+                        return $this->redirect('home'); 
                     }
                 }
             }
@@ -68,9 +68,7 @@ class UserController extends Controller
         $model = new LoginForm();
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
             $user = Yii::$app->user->identity;
-            return $this->render('user', [
-                    'model' => $user
-                ]);
+            return $this->redirect('home');
         }else {
             return $this->render('login', [
                 'model' => $model,

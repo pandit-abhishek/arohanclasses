@@ -152,7 +152,7 @@ a{
     z-index: 1;
 }
 .we-provide .course-item img{
-	height: 100% !important;
+	  height: 100% !important;
     max-height: 200px !important;
     position: relative;
     transition: all 0.3s ease 0s;
@@ -421,6 +421,13 @@ a{
  */
 /**end-media-query**/
 
+
+
+
+
+
+
+
 /**
  * Start Contact form
  */
@@ -459,127 +466,181 @@ a{
  * End Contact form
  */
 
-.course-container{
-  width: 100%;
-  display:table;
-  margin-top: 51px;
-}
-.course-container .heading {
-  margin-top: 20px;
-  text-align: center;
-  font-size: 30px;
-  font-family: inherit;
-  color: blue;
+/**
+ * Courses Class Starts Here
+ */
 
+.courses {
+  margin-top: 50px;
 }
 
-.class-room-courses{
-  float: left;
-  display: block;
-  width: 32%;
-  height: 230px;
-  border:1px #000 solid;
-  margin-left: 10px;
+.courses .course-item .course-hover {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 1;
 }
 
-.jee-main{
-  float: left;
-  display: block;
-  margin-left: 10px;
-  width: 32%;
-  height: 230px;
-  border:1px #000 solid;
-}
-
-.jee-advance{
-  float: right;
-  display: block;
-  margin-right: 10px;
-  width: 32%;
-  height: 230px;
-  border:1px #000 solid;
-}
-
-.neet {
-  float: left;
-  display: block;
-  width: 32%;
-  height: 230px;
-  border:1px #000 solid;
-  margin-left: 10px;
-  margin-top: 20px;
-}
-
-.eleventh{
-  float: left;
-  display: block;
-  width: 32%;
-  height: 230px;
-  border:1px #000 solid;
-  margin-left: 10px;
-  margin-top: 20px;
-}
-
-.twelth{
-  float: right;
-  display: block;
-  margin-left: 10px;
-  width: 32%;
-  height: 230px;
-  border:1px #000 solid;
-  margin-top: 20px;
-}
+/**
+ * Courses class end here
+ */
 
 
-
-
-
+/**
+ * Bathces Starts here.
+ */
 
 .batches {
-  display: table;
-  width: 100%;
-  margin-top: 51px;
-  height: 352px;
-}
-
-.current-batches {
-  display: block;
-  float: left;
-  width: 35%;
   margin-top: 50px;
-  margin-left:14%;
-  border: 1px #000 solid;
-  height: 230px;
 }
 
-.upcoming-batches {
-  display: block;
-  float: right;
-  width: 35%;
-  margin-right:14%;
-  margin-top: 50px;
-  border: 1px #000 solid;
-  height: 230px;
+.batches .block-item img{
+    height: 100% !important;
+    max-height: 235px !important;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    z-index: 1;
 }
 
 
+/**
+ * Bathces End here.
+ */
 
 
-.user-container {
+/**
+ * Common block classes starts here.
+ */
+
+.block-item {
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.block-item .block-hover {
+  overflow: hidden;
+  position: relative;
   width: 100%;
-  display:table;
-  margin-top: 51px;
+  z-index: 1;
+}
+.block-item img{
+    height: 100% !important;
+    max-height: 235px !important;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    z-index: 1;
 }
 
-.user-container .heading {
-  margin-top: 20px;
-  text-align: center;
-  font-size: 30px;
-  font-family: inherit;
-  color: blue;
+.block-hover .hover-bg {
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: all 0.3s ease 0s;
+  z-index: 1;
 }
+
+.block-item .batch-hover:hover .hover-bg {
+  opacity: 0.6;
+}
+.block-hover .hover-bg {
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    z-index: 1;
+}
+.bg-color-2 {
+    background-color: #03462e;
+}
+.block-hover a {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 15px;
+    left: 50%;
+    line-height: 20px;
+    opacity: 0;
+    overflow: hidden;
+    padding: 8px 30px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.5);
+    transition: all 0.3s ease 0s;
+    white-space: nowrap;
+    z-index: 3;
+}
+.widget-popular .block-name, .block-item .block-name {
+    background-color: rgb(51, 51, 51);
+    display: block;
+    padding: 10px;
+}
+.widget-popular img, .block-item img {
+    height: 100% !important;
+    max-height: 200px !important;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    z-index: 1;
+}
+.block-item .block-hover:hover img {
+    transform: scale(1.1);
+    transition: all 4s ease 0s;
+}
+.block-hover:hover > a {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+}
+.widget-popular .block-name .price, .block-item .block-name .price {
+    color: rgb(255, 255, 255);
+    display: table;
+    float: none;
+    margin: 0 auto;
+}
+.price {
+    display: inline-block;
+    text-align: center;
+}
+.price {
+    font-size: 18px;
+}
+
+
+
+
+/**
+ * Common block Classes end here.
+ */
+
+
+/**
+ * User Class starts here.
+ */
+.user{
+  margin-top: 50px
+}
+
+/**
+ * User class end here.
+ */
+
 
 .welcome {
+  width: 100%;
+  
+}
+.welcome p {
   float: right;
   margin-right: 30px;
   margin-top: 60px;
@@ -587,59 +648,59 @@ a{
   color: green;
 }
 
-.user-container .study-material {
-  float: left;
-  display: block;
-  width: 32%;
-  height: 230px;
-  border:1px #000 solid;
-  margin-left: 10px;
+
+/**
+ * Outer Class starts here.
+ */
+
+.outer-heading {
+  text-align: center;
 }
 
-.user-container .video-lecture {
-  float: left;
-  display: block;
-  width: 32%;
-  height: 230px;
-  border:1px #000 solid;
-  margin-left: 10px;
+.outer-left-border {
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  height: 8px;
+  margin-top: 30px;
 }
 
-.user-container .test-series {
-  float: right;
-  display: block;
-  margin-right: 10px;
-  width: 32%;
-  height: 230px;
-  border:1px #000 solid;
+.outer-right-border {
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  height: 8px;
+  margin-top: 30px;
 }
 
-.user-container .extra-classes {
-  float: left;
-  display: block;
-  width: 32%;
-  height: 230px;
-  border:1px #000 solid;
-  margin-left: 10px;
-  margin-top: 20px;
+/**
+ * Outer Class end here.
+ */
+
+
+
+
+/**
+ * Inner page class starts here.
+ */
+
+.inner-left-border {
+  margin-top: 60px;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  height: 8px;
 }
 
-.user-container .free-demo-classes {
-  float: left;
-  display: block;
-  width: 32%;
-  height: 230px;
-  border:1px #000 solid;
-  margin-left: 10px;
-  margin-top: 20px;
+.inner-right-border {
+  margin-top: 21px;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  height: 8px;
 }
 
-.user-container .life-of-science {
-  float: left;
-  display: block;
-  width: 32%;
-  height: 230px;
-  border:1px #000 solid;
-  margin-left: 10px;
-  margin-top: 20px;
+.inner-heading h3 {
+  text-align: center;
+  margin-top: 50px;
 }
+
+/**
+ * Inner page class end here.
+ */

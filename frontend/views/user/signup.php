@@ -50,12 +50,12 @@ $this->title = 'Signup';
 			</div>
 
 			<div class="form-group">
-				<?= $form->field($model, 'confirmPassword')->passwordInput()->input('password', ['placeholder' => "Confirm Password"])->label(false); ?>
+				<?= $form->field($model, 'confirm_pass')->passwordInput()->input('password', ['placeholder' => "Confirm Password"])->label(false); ?>
 				<i class="fa fa-lock" aria-hidden="true"></i>
 			</div>
 
 			<div class="form-group">
-            	<?= $form->field($model, 'contactNo')->textInput(['autofocus' => true])->input('contactNo', ['placeholder' => "Contact No"])->label(false); ?>
+            	<?= $form->field($model, 'contact')->textInput(['autofocus' => true])->input('contact', ['placeholder' => "Contact No"])->label(false); ?>
 				<i class="fa fa-phone" aria-hidden="true"></i>
 			</div>
 
