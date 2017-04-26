@@ -25,9 +25,17 @@ class ComposerStaticInitdc5469583050b770aa14ba386b784cec
             'yii\\bootstrap\\' => 14,
             'yii\\' => 4,
         ),
+        'r' => 
+        array (
+            'richardfan\\widget\\' => 18,
+        ),
         'p' => 
         array (
             'phpDocumentor\\Reflection\\' => 25,
+        ),
+        'h' => 
+        array (
+            'himiklab\\yii2\\recaptcha\\' => 24,
         ),
         'c' => 
         array (
@@ -103,11 +111,19 @@ class ComposerStaticInitdc5469583050b770aa14ba386b784cec
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2',
         ),
+        'richardfan\\widget\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/richardfan1126/yii2-js-register',
+        ),
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+        ),
+        'himiklab\\yii2\\recaptcha\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/himiklab/yii2-recaptcha-widget',
         ),
         'cebe\\markdown\\' => 
         array (

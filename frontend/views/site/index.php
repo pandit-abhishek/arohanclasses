@@ -26,8 +26,8 @@ use yii\helpers\Url;
 			</div>
 			<div class="clearfix"></div>
 			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-				<div class="course-item">
-					<div class="course-hover">
+				<div class="block-item">
+					<div class="block-hover">
 						<img alt="" data-at2x="pic/370x280-img-2@2x.jpg" src="images/class.jpg">
 						<div class="hover-bg bg-color-2"></div>
 						<?php 
@@ -35,32 +35,32 @@ use yii\helpers\Url;
 						?>
 						<a href="/facility?id=classroom">View More</a>
 					</div>
-					<div class="course-name clear-fix">
+					<div class="block-name clear-fix">
 						<span class="price">Class Room Courses</span>
 					</div>
 				</div>
 			</div>	
 			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-				<div class="course-item">
-					<div class="course-hover">
+				<div class="block-item">
+					<div class="block-hover">
 						<img alt="" data-at2x="pic/370x280-img-2@2x.jpg" src="images/study-material.jpg">
 						<div class="hover-bg bg-color-2"></div>
 						<a href="/facility?id=studyMaterial">View More</a>
 					</div>
-					<div class="course-name clear-fix">
+					<div class="block-name clear-fix">
 						<span class="price">Study Material</span>
 						
 					</div>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-				<div class="course-item">
-					<div class="course-hover">
+				<div class="block-item">
+					<div class="block-hover">
 						<img alt="" data-at2x="pic/370x280-img-2@2x.jpg" src="images/girl-image.jpg">
 						<div class="hover-bg bg-color-2"></div>
 						<a href="/facility?id=problemSolvingClass">View More</a>
 					</div>
-					<div class="course-name clear-fix">
+					<div class="block-name clear-fix">
 						<span class="price">Problem Solving Class</span>
 					</div>
 				</div>
@@ -68,37 +68,37 @@ use yii\helpers\Url;
 			<div class="clearfix"></div>
 			<div class="gapper"></div>
 			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-				<div class="course-item">
-					<div class="course-hover">
+				<div class="block-item">
+					<div class="block-hover">
 						<img alt="" data-at2x="pic/370x280-img-2@2x.jpg" src="images/class-panorama.jpg">
 						<div class="hover-bg bg-color-2"></div>
 						<a href="/facility?id=testSeries">View More</a>
 					</div>
-					<div class="course-name clear-fix">
+					<div class="block-name clear-fix">
 						<span class="price">Test Series</span>
 					</div>
 				</div>
 			</div>	
 			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-				<div class="course-item">
-					<div class="course-hover">
+				<div class="block-item">
+					<div class="block-hover">
 						<img alt="" data-at2x="pic/370x280-img-2@2x.jpg" src="images/video-lecture.jpg">
 						<div class="hover-bg bg-color-2"></div>
 						<a href="/facility?id=videoLecture">View More</a>
 					</div>
-					<div class="course-name clear-fix">
+					<div class="block-name clear-fix">
 						<span class="price">Video Lecture</span>
 					</div>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-				<div class="course-item">
-					<div class="course-hover">
+				<div class="block-item">
+					<div class="block-hover">
 						<img alt="" data-at2x="pic/370x280-img-2@2x.jpg" src="images/more.jpg">
 						<div class="hover-bg bg-color-2"></div>
 						<a href="/facility?id=more">View More</a>
 					</div>
-					<div class="course-name clear-fix">
+					<div class="block-name clear-fix">
 						<span class="price">More</span>
 					</div>
 				</div>

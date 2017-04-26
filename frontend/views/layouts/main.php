@@ -62,13 +62,17 @@ AppAsset::register($this);
                         NavBar::end();
                     ?>
     			</header>
-
+                <!-- <div class="header-margin"></div> -->
                 <?php 
                     if(!Yii::$app->user->isGuest){ 
                         $user = Yii::$app->user->identity;
                     ?>	
-                        <div class="welcome">
-                            <p>Welcome <?php echo ucfirst($user->firstname);?></p>
+                        <div class="container-fluid welcome">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <p>Welcome <?php echo ucfirst($user->firstname);?></p>
+                                </div>
+                            </div>
                         </div>
 
                 <?php } ?>
@@ -123,8 +127,10 @@ AppAsset::register($this);
 						</div>
 					</div>
 				</div>
-                <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-                <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+                <!-- <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script> -->
+                <!-- <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
+                <script type="text/javascript" src="./js/jquery-3.2.1.js"></script>
+                <script type="text/javascript" src="./js/bootstrap.js"></script>
             </footer>
         <?php $this->endBody() ?>
     </body>

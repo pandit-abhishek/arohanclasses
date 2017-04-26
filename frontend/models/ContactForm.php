@@ -15,7 +15,7 @@ class ContactForm extends Model
     public $subject;
     public $body;
     public $verifyCode;
-
+    public $reCaptcha;  
 
     /**
      * @inheritdoc
@@ -25,7 +25,8 @@ class ContactForm extends Model
         return [
             [['name', 'email', 'subject', 'body'], 'required'],
             ['email', 'email'],
-            ['verifyCode', 'captcha'],
+            // ['verifyCode', 'captcha'],
+            [['reCaptcha'], \himiklab\yii2\recaptcha\ReCaptchaValidator::className(), 'secret' => '6LdoRx4UAAAAAMYf4tmwCzQhVi5JJe0MasaMpyXm']
         ];
     }
 

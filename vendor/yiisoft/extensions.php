@@ -48,4 +48,22 @@ return array (
       '@yii/faker' => $vendorDir . '/yiisoft/yii2-faker',
     ),
   ),
+  'richardfan1126/yii2-js-register' => 
+  array (
+    'name' => 'richardfan1126/yii2-js-register',
+    'version' => '0.0.1.0',
+    'alias' => 
+    array (
+      '@richardfan/widget' => $vendorDir . '/richardfan1126/yii2-js-register',
+    ),
+  ),
+  'himiklab/yii2-recaptcha-widget' => 
+  array (
+    'name' => 'himiklab/yii2-recaptcha-widget',
+    'version' => '1.0.6.0',
+    'alias' => 
+    array (
+      '@himiklab/yii2/recaptcha' => $vendorDir . '/himiklab/yii2-recaptcha-widget',
+    ),
+  ),
 );

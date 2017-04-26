@@ -44,7 +44,8 @@ return [
                 '/' => 'site/index',
                 '<alias:contact|about|courses|batches|construction|more|logout>' => 'site/<alias>',
                 '<alias:signup|login|home>' => 'user/<alias>',
-                'GET facility'=>'site/we-provides',
+                'GET facility' => 'site/we-provides',
+                'GET download' => 'user/download'
             ],
         ],
         

@@ -5,6 +5,7 @@ use Yii;
 use yii\web\Controller;
 use frontend\models\SignupForm;
 use common\models\LoginForm;
+use common\models\StudyMaterial;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 
@@ -85,6 +86,25 @@ class UserController extends Controller
                 'model' => $user
             ]);
         }else{
+            return $this->render('index');
+        }
+        
+    }
+
+
+    public function actionDownload(){
+        if(!Yii::$app->user->isGuest){
+            $model = new StudyMaterial();
+            if(!empty(Yii::$app->request->post())){
+                // echo "<pre>";print_r($studyMaterial);die;
+                // return $this->render('_studyMaterial');
+
+            }else{
+                // echo "<pre>";print_r($model);die;
+                return $this->render('_studyMaterial',['model' => $model]);
+
+            }
+                    }else{
             return $this->render('index');
         }
         

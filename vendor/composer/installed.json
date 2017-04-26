@@ -3092,5 +3092,100 @@
             }
         ],
         "description": "BDD assertion library for PHPUnit"
+    },
+    {
+        "name": "richardfan1126/yii2-js-register",
+        "version": "v0.0.1",
+        "version_normalized": "0.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/richardfan1126/yii2-js-register.git",
+            "reference": "e6a49b1523942c0a861bfa9f5cf7371e3bfd94f9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/richardfan1126/yii2-js-register/zipball/e6a49b1523942c0a861bfa9f5cf7371e3bfd94f9",
+            "reference": "e6a49b1523942c0a861bfa9f5cf7371e3bfd94f9",
+            "shasum": ""
+        },
+        "require": {
+            "yiisoft/yii2": "*"
+        },
+        "time": "2016-06-29 17:28:49",
+        "type": "yii2-extension",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "richardfan\\widget\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Richard Fan",
+                "email": "richardfan1126@gmail.com",
+                "homepage": "https://fancy-digital.com"
+            }
+        ],
+        "description": "Yii2 widget to register JS into view",
+        "keywords": [
+            "extension",
+            "javascript",
+            "widget",
+            "yii2"
+        ]
+    },
+    {
+        "name": "himiklab/yii2-recaptcha-widget",
+        "version": "1.0.6",
+        "version_normalized": "1.0.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/himiklab/yii2-recaptcha-widget.git",
+            "reference": "6c7c6c41a595f8fdcc5ec54e5f09a332ef0358cc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/himiklab/yii2-recaptcha-widget/zipball/6c7c6c41a595f8fdcc5ec54e5f09a332ef0358cc",
+            "reference": "6c7c6c41a595f8fdcc5ec54e5f09a332ef0358cc",
+            "shasum": ""
+        },
+        "require": {
+            "yiisoft/yii2": "*"
+        },
+        "require-dev": {
+            "phpunit/dbunit": ">=1.2",
+            "phpunit/phpunit": ">=3.7",
+            "phpunit/phpunit-selenium": ">=1.2"
+        },
+        "time": "2017-01-10 15:46:29",
+        "type": "yii2-extension",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "himiklab\\yii2\\recaptcha\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "HimikLab",
+                "homepage": "https://github.com/himiklab/"
+            }
+        ],
+        "description": "Yii2 Google reCAPTCHA widget",
+        "keywords": [
+            "captcha",
+            "google",
+            "recaptcha",
+            "widget",
+            "yii2"
+        ]
     }
 ]
