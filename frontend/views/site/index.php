@@ -33,10 +33,10 @@ use yii\helpers\Url;
 						<?php 
 							// Html::a('View More',Url::to('/construction', true));
 						?>
-						<a href="/facility?id=classroom">View More</a>
+						<a href="/facility?id=courses">View More</a>
 					</div>
 					<div class="block-name clear-fix">
-						<span class="price">Class Room Courses</span>
+						<span class="price">Courses</span>
 					</div>
 				</div>
 			</div>	
@@ -61,7 +61,7 @@ use yii\helpers\Url;
 						<a href="/facility?id=problemSolvingClass">View More</a>
 					</div>
 					<div class="block-name clear-fix">
-						<span class="price">Problem Solving Class</span>
+						<span class="price">Problem Solving & Free Demo Classes</span>
 					</div>
 				</div>
 			</div>
@@ -103,6 +103,10 @@ use yii\helpers\Url;
 					</div>
 				</div>
 			</div>
+			<div class="clearfix"></div>
+			<div class="gapper"></div>
 		</div>	
+
+		
 	</div>
 </section>

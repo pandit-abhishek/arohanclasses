@@ -65,9 +65,14 @@ AppAsset::register($this);
                 <!-- <div class="header-margin"></div> -->
                 <?php 
                     if(!Yii::$app->user->isGuest){ 
+                        if(Yii::$app->controller->action->id == 'contact'){
+                            $backColorClass = 'contact-not-guest';
+                        }else {
+                            $backColorClass = 'contact-guest';
+                        }
                         $user = Yii::$app->user->identity;
                     ?>	
-                        <div class="container-fluid welcome">
+                        <div class="container-fluid welcome <?php echo $backColorClass ;?>">
                             <div class="row">
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                     <p>Welcome <?php echo ucfirst($user->firstname);?></p>

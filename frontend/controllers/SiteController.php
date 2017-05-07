@@ -184,7 +184,12 @@ class SiteController extends Controller
      */
     public function actionCourses(){
         // return $this->render('underConstruction');
-        return $this->render('courses');
+        if(Yii::$app->user->isGuest){
+            return $this->render('courseList');
+        }else{
+            return $this->render('courses');
+        }
+        
     }
 
     public function actionBatches(){
@@ -202,11 +207,11 @@ class SiteController extends Controller
 
 
     public function actionWeProvides(){
-        return $this->render('underConstruction');
+        // return $this->render('underConstruction');
         
-        /*$id = Yii::$app->request->get('id');
-        if($id == 'classroom'){
-            return $this->render('courses');
+        $id = Yii::$app->request->get('id');
+        if($id == 'courses'){
+            return $this->render('courseList');
         }
         else if($id == 'studyMaterial'){
             return $this->render('studyMaterial');
@@ -218,10 +223,10 @@ class SiteController extends Controller
             return $this->render('testSeries');
         }
         else if($id == 'videoLecture'){
-            return $this->render('videoLecture');
+            return $this->render('underConstruction');
         }
         else if($id == 'more'){
-            return $this->render('more');
-        }*/
+            return $this->render('underConstruction');
+        }
     }
 }

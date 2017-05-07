@@ -1,4 +1,5 @@
 <?php
+use Yii;
 use yii\helpers\Html;
 $this->title = 'Batches';
 use richardfan\widget\JSRegister;
@@ -15,6 +16,9 @@ if(Yii::$app->user->isGuest){
 
 ?>
 <section>
+	<?php if(Yii::$app->user->isGuest){ ?>
+        <div class="top-margin"></div>
+    <?php } ?>
 	<div class="container">
 		<div class="row batches">
 			<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 <?php echo $left_border ?>">
@@ -67,7 +71,8 @@ if(Yii::$app->user->isGuest){
 			<div class="col-xs-12 col-sm-12 col-md-1 col-lg-1">
 			</div>
 		</div>
-
+		<div class="clearfix"></div>
+		<div class="gapper"></div>
 	</div>
 </section>
 <section>

@@ -134,7 +134,9 @@ if(Yii::$app->user->isGuest){
 						<span class="price">XII</span>
 					</div>
 				</div>
-			</div>				
+			</div>
+			<div class="clearfix"></div>
+			<div class="gapper"></div>				
 		</div>
 	</div>
 </section>

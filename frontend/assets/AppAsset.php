@@ -14,7 +14,8 @@ class AppAsset extends AssetBundle
     public $css = [
         'css/style.css',
         'css/jquery.bxslider.css',
-		'css/font-awesome.min.css'
+		'css/font-awesome.min.css',
+        'vendor/kartik-v/dependent-dropdown/css/dependent-dropdown.css'
 
     ];
     public $js = [

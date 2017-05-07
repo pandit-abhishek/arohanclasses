@@ -104,6 +104,8 @@ if(Yii::$app->user->isGuest){
 					</div>
 				</div>
 			</div>
+			<div class="clearfix"></div>
+			<div class="gapper"></div>
 		</div>
 	</div>
 </section>

@@ -45,7 +45,11 @@ return [
                 '<alias:contact|about|courses|batches|construction|more|logout>' => 'site/<alias>',
                 '<alias:signup|login|home>' => 'user/<alias>',
                 'GET facility' => 'site/we-provides',
-                'GET download' => 'user/download'
+                'download' => 'user/download',
+                'POST subject' => 'user/get-subject',
+                'POST topics' => 'user/get-topics',
+                'POST material' => 'user/material',
+                'POST sub-topics' => 'user/get-sub-topics'
             ],
         ],
         

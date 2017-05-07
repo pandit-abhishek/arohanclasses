@@ -73,6 +73,10 @@ AppAsset::register($this);
     </div>
 </footer>
 
+<!-- <script type="text/javascript" src="./js/jquery-3.2.1.js"></script> -->
+<script type="text/javascript" src="./js/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="./js/bootstrap.js"></script>
+
 <?php $this->endBody() ?>
 </body>
 </html>

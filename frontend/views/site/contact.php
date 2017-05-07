@@ -1,5 +1,6 @@
 <?php
 
+use Yii;
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
@@ -8,25 +9,29 @@ $this->title = 'Contact';
 
 ?>
 <section>
-    <div class="container-fluid">
-        <div class="row contact">
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <?php if(Yii::$app->user->isGuest){ ?>
+                <div class="gapper"></div>
+            <?php } ?>
+
+            
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <h3>Any query feel free to call us or you can also email.</h3>
             </div>
-            
             <div class="clearfix"></div>
-            
             <div class="contact-form">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
                     <?php $form = ActiveForm::begin(['id' => 'contact-form']); ?>
 
-                        <?= $form->field($model, 'name',['options' => ['class' => 'form-group']])->textInput(['autofocus' => true]) ?>
+                        <?= $form->field($model,'name',['options' => ['class' => 'form-group']])->textInput(['class'=>'form-control','autofocus' => true] )->input('name', ['placeholder' => "Enter your name"])->label(false); ?>
 
-                        <?= $form->field($model, 'email',['options' => ['class' => 'form-group']]) ?>
+                        <?= $form->field($model, 'email',['options' => ['class' => 'form-group']])->textInput(['class'=>'form-control','autofocus' => true] )->input('email', ['placeholder' => "Enter your Email"])->label(false); ?>
 
-                        <?= $form->field($model, 'subject') ?>
+                        <?= $form->field($model, 'subject',['options' => ['class' => 'form-group']])->textInput(['class'=>'form-control','autofocus' => true] )->input('subject', ['placeholder' => "Enter your Email"])->label(false); ?>
 
-                        <?= $form->field($model, 'body')->textarea(['rows' => 5]) ?>
+                        <?= $form->field($model, 'body')->textarea(['rows' => 5])->label(false) ?>
 
                         <?= $form->field($model, 'reCaptcha', ['enableAjaxValidation' => false])->widget(
                             \himiklab\yii2\recaptcha\ReCaptcha::className(), [
@@ -43,15 +48,15 @@ $this->title = 'Contact';
 
                     <?php ActiveForm::end(); ?>
                 </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <h3>Route Map</h3>
-                <div class="route-map">
-
+                <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                    <div class="route-map">
+                        <img src="../images/root-map.png" class="img-responsive" alt="Loading Root map">    
+                    </div>
                 </div>
-
             </div>
+            
         </div>
     </div>
+</div>  
 </section>
 

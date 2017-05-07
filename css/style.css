@@ -178,17 +178,38 @@ a{
 }
 .advertisement > .container{
 	height: 50px;
-    display: table;
+  display: table;
 }
 .advertisement p {
-    color: #fff;
-    display: table-cell;
-    font-size: 16px;
-    vertical-align: middle;
+  color: #fff;
+  display: table-cell;
+  font-size: 16px;
+  vertical-align: middle;
 }
-.consturction img{
-    width: 100%;
+
+/**
+ * Construction class starts here.
+ */
+.consturction {
+  width: 100%;
 }
+.consturction .consturction-text {
+  display: block;
+  margin-top:180px;
+}
+
+.consturction-text p {
+  text-align: center;
+  font-size: -webkit-xxx-large;
+  font-family: inherit;
+  color: blue;
+
+}
+
+/**
+ * Construction class ends here.
+ */
+
 
 /**
  * footer class start here.
@@ -363,17 +384,27 @@ a{
  * Start Contact form
  */
 .contact {
+  background:#31708f;
   margin-top: 0px;
+}
+
+.welcome.contact-not-guest {
+  background:#31708f;
+}
+.welcome.contact-not-guest p {
+  color: white;
+}
+
+.welcome.contact-guest {
+  background: white;
 }
 
 .contact h3 {
   text-align: center;
-  color: blue;  
+  color: #fff;  
+  margin:45px 0 27px;
 }
-.contact-form {
-  width:72%;
-  margin-left: 37px;
-}
+
 .contact-form input{
   width:100%;
 }
@@ -381,6 +412,22 @@ a{
 .contact-form .form-group button {
   width: 170px;
   text-align: center;
+  margin:0 auto;
+  display:table;
+}
+.g-recaptcha > div {
+    margin: 0 auto;
+}
+.route-map {
+    border: 5px solid #fff;
+    border-radius: 4px;
+    padding: 9px 31px;
+}
+.route-map img {
+    margin: 0 auto;
+}
+.footer-top-border {
+    height: 6px;
 }
 
 /**
@@ -628,6 +675,7 @@ a{
 
 .outer-heading {
   text-align: center;
+  color: darkblue;
 }
 
 .outer-left-border {
@@ -635,6 +683,7 @@ a{
   border-top: 1px solid;
   height: 8px;
   margin-top: 30px;
+  color: blue;
 }
 
 .outer-right-border {
@@ -642,6 +691,7 @@ a{
   border-top: 1px solid;
   height: 8px;
   margin-top: 30px;
+  color: blue;
 }
 
 /**
@@ -703,4 +753,210 @@ a{
 
 /**
  * POP UP class end here.
+ */
+
+
+.top-margin {
+  margin-top: 51px;
+}
+
+/**
+ * Courses class starts here.
+ */
+
+.course-tabs ul li {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.course-tabs ul li .tab-details {
+  display: none;
+  margin-left:  10px;
+  
+}
+
+.course-tabs ul li a {
+  position: relative;
+  cursor: default;
+  display: block;
+  padding: 15px;
+  border: 1px solid #ddd;
+  color: blue;
+}
+
+.course-tabs ul li a span {
+  float: right;
+  color: green;
+}
+.course-tabs .tab-details p {
+  margin-top: 15px;
+  text-align: justify;
+  font-family: sans-serif;
+}
+
+
+.course-list {
+  background-color: ghostwhite;
+}
+.course-list .course-description img {
+  margin: 0px auto;
+}
+
+
+/**
+ * Courses class ends here.
+ */
+
+/**
+ * Study Material class starts here.
+ */
+.study-material-list {
+  background-color: rgb(227,237,228);
+}
+
+
+.study-material-list img{
+  margin:0px auto;
+  
+}
+
+.study-material-tabs li{
+  width: 100%;
+  margin-top: 20px;
+  color: white;
+}
+
+.study-material-tabs ul li .tab-details {
+  display: none;
+  margin-left:  10px;
+
+}
+
+.study-material-tabs ul li a {
+  position: relative;
+  cursor: default;
+  display: block;
+  padding: 15px;
+  border: 1px solid #ddd;
+  color: blue;
+}
+
+.study-material-tabs ul li a span {
+  float: right;
+  color: green;
+}
+
+
+.study-material-tabs .tab-details p {
+  margin-top: 15px;
+  text-align: justify;
+  font-family: sans-serif;
+  color: black;
+}
+
+/**
+ * Study Material class ends here.
+ */
+
+/**
+ * Problem Solving class starts here.
+ */
+.problem-solving-class img{
+  margin:0px auto;
+  height: 290px;
+}
+
+
+
+
+.problem-solving-class-tabs li{
+  width: 100%;
+  margin-top: 20px;
+  color: white;
+}
+
+.problem-solving-class-tabs ul li .tab-details {
+  display: none;
+  margin-left:  10px;
+
+}
+
+.problem-solving-class-tabs ul li a {
+  position: relative;
+  cursor: default;
+  display: block;
+  padding: 15px;
+  border: 1px solid #ddd;
+  color: blue;
+}
+
+.problem-solving-class-tabs ul li a span {
+  float: right;
+  color: green;
+}
+
+
+.problem-solving-class-tabs .tab-details p {
+  margin-top: 15px;
+  text-align: justify;
+  font-family: sans-serif;
+  color: black;
+}
+
+
+
+/**
+ * Problem Solving class ends here.
+ */
+
+
+/**
+ * Test series class starts here.
+ */
+
+.test-series img{
+  margin:0px auto;
+  height: 290px;
+}
+
+
+
+
+.test-series-tabs li{
+  width: 100%;
+  margin-top: 20px;
+  color: white;
+}
+
+.test-series-tabs ul li .tab-details {
+  display: none;
+  margin-left:  10px;
+
+}
+
+.test-series-tabs ul li a {
+  position: relative;
+  cursor: default;
+  display: block;
+  padding: 15px;
+  border: 1px solid #ddd;
+  color: blue;
+}
+
+.test-series-tabs ul li a span {
+  float: right;
+  color: green;
+}
+
+
+.test-series-tabs .tab-details p {
+  margin-top: 15px;
+  text-align: justify;
+  font-family: sans-serif;
+  color: black;
+}
+
+
+/**
+ * Test series class ends here.
  */
