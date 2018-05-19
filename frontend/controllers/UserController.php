@@ -107,7 +107,7 @@ class UserController extends Controller
                 $subtopic = $post['subtopic_id'];
 
                 $material = StudyMaterial::find()->where(['class' => $class ,'subject' => $subject,'topic' => $topic , 'subtopic' => $subtopic ])->asArray()->all();
-                echo"<pre>";print_r($material);die;
+                // echo"<pre>";print_r($material);die;
 
             }else{
                 $class  = ClassRoom::find()->all();

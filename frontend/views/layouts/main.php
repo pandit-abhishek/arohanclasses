@@ -17,7 +17,7 @@ AppAsset::register($this);
         <meta charset="<?= Yii::$app->charset ?>">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <?= Html::csrfMetaTags() ?>
-        <title>PhysicsClasses | <?= Html::encode($this->title) ?></title>
+        <title>Arohan Classess | <?= Html::encode($this->title) ?></title>
         <?php $this->head() ?>
 		<link rel="shortcut icon" href="favicon.png">
     </head>
@@ -27,7 +27,7 @@ AppAsset::register($this);
     			<header>
                     <?php
                         NavBar::begin([
-                            'brandLabel' => 'Physics Classes',
+                            'brandLabel' => 'Arohan Classes',
                             'brandUrl' => Yii::$app->homeUrl,
                             'options' => [
                                 'class' => 'navbar-inverse navbar-fixed-top',
@@ -126,8 +126,8 @@ AppAsset::register($this);
 					<div class="container">
 						<div class="row">
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<p class="pull-left">© Physics Classes <?php echo date("Y")?></p>
-								<p class="pull-right">Powered By <a href="#"><?= CustomYii::powered()?></a></p>
+								<p class="pull-left">© Arohan Classes <?php echo date("Y")?></p>
+								<p class="pull-right">Powered By <a target = "_blank" href="www.technovihar.com"><?= CustomYii::powered()?></a></p>
 							</div>
 						</div>
 					</div>

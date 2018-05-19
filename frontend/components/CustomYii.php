@@ -8,6 +8,6 @@ class CustomYii extends Yii
 {
     public static function powered()
     {
-        echo "zuggads.com";
+        echo "www.technovihar.com";
     }
 }
