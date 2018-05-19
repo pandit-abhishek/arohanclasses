@@ -33,7 +33,7 @@ use yii\helpers\Url;
 						<?php 
 							// Html::a('View More',Url::to('/construction', true));
 						?>
-						<a href="/facility?id=courses">View More</a>
+						<a href="index.php/facility?id=courses">View More</a>
 					</div>
 					<div class="block-name clear-fix">
 						<span class="price">Courses</span>
@@ -45,7 +45,7 @@ use yii\helpers\Url;
 					<div class="block-hover">
 						<img alt="" data-at2x="pic/370x280-img-2@2x.jpg" src="images/study-material.jpg">
 						<div class="hover-bg bg-color-2"></div>
-						<a href="/facility?id=studyMaterial">View More</a>
+						<a href="index.php/facility?id=studyMaterial">View More</a>
 					</div>
 					<div class="block-name clear-fix">
 						<span class="price">Study Material</span>
@@ -58,7 +58,7 @@ use yii\helpers\Url;
 					<div class="block-hover">
 						<img alt="" data-at2x="pic/370x280-img-2@2x.jpg" src="images/girl-image.jpg">
 						<div class="hover-bg bg-color-2"></div>
-						<a href="/facility?id=problemSolvingClass">View More</a>
+						<a href="index.php/facility?id=problemSolvingClass">View More</a>
 					</div>
 					<div class="block-name clear-fix">
 						<span class="price">Problem Solving & Free Demo Classes</span>
@@ -72,7 +72,7 @@ use yii\helpers\Url;
 					<div class="block-hover">
 						<img alt="" data-at2x="pic/370x280-img-2@2x.jpg" src="images/class-panorama.jpg">
 						<div class="hover-bg bg-color-2"></div>
-						<a href="/facility?id=testSeries">View More</a>
+						<a href="index.php/facility?id=testSeries">View More</a>
 					</div>
 					<div class="block-name clear-fix">
 						<span class="price">Test Series</span>
@@ -84,7 +84,7 @@ use yii\helpers\Url;
 					<div class="block-hover">
 						<img alt="" data-at2x="pic/370x280-img-2@2x.jpg" src="images/video-lecture.jpg">
 						<div class="hover-bg bg-color-2"></div>
-						<a href="/facility?id=videoLecture">View More</a>
+						<a href="index.php/facility?id=videoLecture">View More</a>
 					</div>
 					<div class="block-name clear-fix">
 						<span class="price">Video Lecture</span>
@@ -96,7 +96,7 @@ use yii\helpers\Url;
 					<div class="block-hover">
 						<img alt="" data-at2x="pic/370x280-img-2@2x.jpg" src="images/more.jpg">
 						<div class="hover-bg bg-color-2"></div>
-						<a href="/facility?id=more">View More</a>
+						<a href="index.php/facility?id=more">View More</a>
 					</div>
 					<div class="block-name clear-fix">
 						<span class="price">More</span>
